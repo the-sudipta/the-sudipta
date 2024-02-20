@@ -234,7 +234,7 @@
 <div align="center">
 <h2>Spotify Playing 🎧</h2> <br/>
 
-[![Spotify](https://novatorem-nine-nu.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/31zvllsed5eq7iwjhg5by7oe24mq)
+[![Spotify](https://novatorem-sudipta-kumar-das.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/31zvllsed5eq7iwjhg5by7oe24mq)
 
 </div>
 
@@ -243,31 +243,31 @@
       <br/>
         <p align="center">
             <!--                                                                Most Used Language -->
-          <a href="https://github.com/sudipta-kumar-das">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudipta-kumar-das&langs_count=6&theme=chartreuse-dark&layout=compact&hide_border=true&border_radius=60&bg_color=212121&title_color=169d2c&count_private=true&show_icons=true" alt="Most used Languages" /></a>
+          <a href="https://github.com/the-sudipta">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-sudipta&langs_count=6&theme=chartreuse-dark&layout=compact&hide_border=true&border_radius=60&bg_color=212121&title_color=169d2c&count_private=true&show_icons=true" alt="Most used Languages" /></a>
         </p>
         <p align="center">
             <!--                                                                GitHub Stats -->
-            <a href="https://github.com/sudipta-kumar-das">
-            <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=sudipta-kumar-das&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=212121&title_color=169d2c" alt="Github Stats"/>
+            <a href="https://github.com/the-sudipta">
+            <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=the-sudipta&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=212121&title_color=169d2c" alt="Github Stats"/>
             <!--                                                                GitHub Current Streak -->
-            <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=sudipta-kumar-das&theme=chartreuse-dark&hide_border=true&background=212121&fire=ff0000&sideLabels=169d2c&sideNums=169d2c&ring=169d2c" alt="Github Current Streak" />
+            <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=the-sudipta&theme=chartreuse-dark&hide_border=true&background=212121&fire=ff0000&sideLabels=169d2c&sideNums=169d2c&ring=169d2c" alt="Github Current Streak" />
             </a>
        </p>
        <p align="center">
             <!--                                                                   Coding Activity Graph -->
-            <a href="https://github.com/sudipta-kumar-das">
-                <img width="30%" src="https://wakatime.com/share/@018dae50-eda4-4373-9e13-916a2a0fcf14/a45dd332-469c-4b7e-b477-0f5a817022db.svg" alt="Coding Activity Graph" />
+            <a href="https://github.com/the-sudipta">
+                <img width="30%" src="https://wakatime.com/share/@018dc71a-04e0-4042-a9aa-b7d15d8341b1/c6234dc3-a596-4249-83bf-c0023f05c397.svg" alt="Coding Activity Graph" />
             </a>
             <!--                                                                    Language Graph -->
-            <a href=""><img width="30%" src="https://wakatime.com/share/@018dae50-eda4-4373-9e13-916a2a0fcf14/79264266-d172-474b-a076-1358478b6102.svg" alt="Language Graph" /></a>
+            <a href=""><img width="30%" src="https://wakatime.com/share/@018dc71a-04e0-4042-a9aa-b7d15d8341b1/d92e9e45-4896-455a-bdee-1b69de2ebc9f.svg" alt="Language Graph" /></a>
             <!--                                                                    Editor Graph -->
-            <a href=""><img width="30%" src="https://wakatime.com/share/@018dae50-eda4-4373-9e13-916a2a0fcf14/4d7b2776-134e-4e09-98cd-546cfcdb75c8.svg" alt="Editor Graph" /></a>
+            <a href=""><img width="30%" src="https://wakatime.com/share/@018dc71a-04e0-4042-a9aa-b7d15d8341b1/cc06a485-fd7d-4042-92a8-564757fff348.svg" alt="Editor Graph" /></a>
        </p>
        <p align="center"> 
             <!-- Github Trophies -->
             <h4><b>GITHUB TROPHIES</b></h4>
-            <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sudipta-kumar-das&theme=discord&BACKGROUND=212121" alt="Github Trophies" /></a> 
+            <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=the-sudipta&theme=discord&BACKGROUND=212121" alt="Github Trophies" /></a> 
        </p>
 </div>
 <div>
