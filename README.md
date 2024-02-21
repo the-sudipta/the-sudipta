@@ -261,9 +261,9 @@
                 <img width="30%" src="https://wakatime.com/share/@018dc71a-04e0-4042-a9aa-b7d15d8341b1/c6234dc3-a596-4249-83bf-c0023f05c397.svg" alt="Coding Activity Graph" />
             </a>
             <!--                                                                    Language Graph -->
-            <a href=""><img width="30%" src="https://wakatime.com/share/@018dc71a-04e0-4042-a9aa-b7d15d8341b1/d92e9e45-4896-455a-bdee-1b69de2ebc9f.svg" alt="Language Graph" /></a>
+            <a href=""><img width="30%" src="https://wakatime.com/share/@018dc71a-04e0-4042-a9aa-b7d15d8341b1/466056eb-77f4-4ad9-b68b-304b05396ea4.svg" alt="Language Graph" /></a>
             <!--                                                                    Editor Graph -->
-            <a href=""><img width="30%" src="https://wakatime.com/share/@018dc71a-04e0-4042-a9aa-b7d15d8341b1/cc06a485-fd7d-4042-92a8-564757fff348.svg" alt="Editor Graph" /></a>
+            <a href=""><img width="30%" src="https://wakatime.com/share/@018dc71a-04e0-4042-a9aa-b7d15d8341b1/6be108ce-b93d-444e-8cb2-16f64d5887c4.svg" alt="Editor Graph" /></a>
        </p>
        <p align="center"> 
             <!-- Github Trophies -->
