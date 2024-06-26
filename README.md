@@ -202,7 +202,7 @@
 <a href="https://www.gmail.com" target="blank"><img align="center" src="https://www.google.com/gmail/about/static-2.0/images/logo-gmail.png?fingerprint=c2eaf4aae389c3f885e97081bb197b97" alt="sudipta.kumar020@gmail.com" height="40" width="40" /> engineer.sudipta.kumar.das@gmail.com</a> 
 <br/>
 <a href="" target="blank"><img align="center" src="/Resources/call.svg" alt="+8801931117419" height="30" width="40" />     +8801931117419</a> <br/>
-<a href="https://sudiptakumar.com/" target="blank"><img align="center" src="/Resources/website.svg" alt="www.yaarian-om.github.io/" height="45" width="45" />sudiptakumar.com//</a> 
+<a href="https://sudiptakumar.com/" target="blank"><img align="center" src="/Resources/website.svg" alt="www.yaarian-om.github.io/" height="45" width="45" />sudiptakumar.com/</a> 
 <br/>
 
 <!-- Contact With Me -->
