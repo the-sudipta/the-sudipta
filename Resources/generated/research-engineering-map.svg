@@ -1,11 +1,11 @@
-<svg width="1200" height="590" viewBox="0 0 1200 590" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Research Output Meter">
+<svg width="1200" height="640" viewBox="0 0 1200 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Research Publication Spotlight">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="590">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="640">
       <stop stop-color="#020617"/>
       <stop offset=".58" stop-color="#07111F"/>
       <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="aura" x1="76" y1="40" x2="1124" y2="560">
+    <linearGradient id="aura" x1="76" y1="40" x2="1124" y2="610">
       <stop stop-color="#22D3EE"/>
       <stop offset=".5" stop-color="#8B5CF6"/>
       <stop offset="1" stop-color="#F59E0B"/>
@@ -22,36 +22,50 @@
       .micro{font:700 13px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8;letter-spacing:1.4px}
     </style>
   </defs>
-  <rect width="1200" height="590" rx="30" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1198" height="588" rx="30" stroke="url(#aura)" stroke-opacity=".48"/>
-  <text x="70" y="72" class="title">Research Output Meter</text>
-  <text x="70" y="104" class="sub">Publication and submission status by active research field.</text>
-  <g>
-      <text x="90" y="174" class="label">Image Encryption / Decryption</text>
-      <text x="90" y="200" class="small">published</text>
-      <rect x="420" y="156" width="640" height="34" rx="17" fill="#1E293B"/>
-      <rect x="420" y="156" width="640" height="34" rx="17" fill="#22D3EE"/>
-      <text x="1100" y="181" text-anchor="end" class="label">1 paper</text>
-    </g><g>
-      <text x="90" y="258" class="label">Cyber Security</text>
-      <text x="90" y="284" class="small">submitted</text>
-      <rect x="420" y="240" width="640" height="34" rx="17" fill="#1E293B"/>
-      <rect x="420" y="240" width="0" height="34" rx="17" fill="#8B5CF6"/>
-      <text x="1100" y="265" text-anchor="end" class="label">0 papers</text>
-    </g><g>
-      <text x="90" y="342" class="label">Deep Learning</text>
-      <text x="90" y="368" class="small">research in progress</text>
-      <rect x="420" y="324" width="640" height="34" rx="17" fill="#1E293B"/>
-      <rect x="420" y="324" width="0" height="34" rx="17" fill="#F59E0B"/>
-      <text x="1100" y="349" text-anchor="end" class="label">0 papers</text>
-    </g><g>
-      <text x="90" y="426" class="label">Signal Processing</text>
-      <text x="90" y="452" class="small">submitted, not accepted yet</text>
-      <rect x="420" y="408" width="640" height="34" rx="17" fill="#1E293B"/>
-      <rect x="420" y="408" width="0" height="34" rx="17" fill="#10B981"/>
-      <text x="1100" y="433" text-anchor="end" class="label">0 papers</text>
+  <rect width="1200" height="640" rx="30" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="638" rx="30" stroke="url(#aura)" stroke-opacity=".48"/>
+  <text x="70" y="72" class="title">Research Publication Spotlight</text>
+  <text x="70" y="104" class="sub">One accepted paper, with active research threads shown as momentum instead of empty counts.</text>
+  <g filter="url(#shadow)">
+      <rect x="70" y="145" width="1060" height="220" rx="28" fill="#0F172A" stroke="#334155"/>
+      <rect x="98" y="174" width="220" height="150" rx="24" fill="#020617" stroke="#22D3EE"/>
+      <text x="208" y="222" text-anchor="middle" class="num">1</text>
+      <text x="208" y="258" text-anchor="middle" class="label">Published Paper</text>
+      <text x="208" y="288" text-anchor="middle" class="small">Image encryption</text>
+      <text x="208" y="314" text-anchor="middle" class="small">and decryption</text>
+
+      <text x="350" y="194" class="micro">ACCEPTED RESEARCH</text>
+      <text x="350" y="236" class="label">Enhancing Image Encryption with</text>
+      <text x="350" y="268" class="label">Quadrant-Based Layered Multi-Key Systems</text>
+      <text x="350" y="306" class="small">International Journal of Mathematics and Computer Research</text>
+      <text x="350" y="334" class="small">Dec 2024 - DOI: 10.47191/ijmcr/v12i12.02</text>
+
+      <rect x="900" y="190" width="185" height="34" rx="17" fill="#1E293B" stroke="#334155"/>
+      <text x="992.5" y="213" text-anchor="middle" class="micro">SECURE IMAGING</text>
+      <rect x="900" y="240" width="185" height="34" rx="17" fill="#1E293B" stroke="#334155"/>
+      <text x="992.5" y="263" text-anchor="middle" class="micro">MULTI-KEY SYSTEMS</text>
+      <rect x="900" y="290" width="185" height="34" rx="17" fill="#1E293B" stroke="#334155"/>
+      <text x="992.5" y="313" text-anchor="middle" class="micro">APPLIED SECURITY</text>
     </g>
-    <rect x="90" y="510" width="1020" height="42" rx="21" fill="#020617" stroke="#334155"/>
-    <text x="600" y="537" text-anchor="middle" class="small">Counts show accepted publications only; submitted and in-progress fields stay at 0 until accepted.</text>
-  <text x="70" y="558" class="micro">AUTO-GENERATED BY WORKFLOW - UPDATED 2026-06-01</text>
+
+    <text x="70" y="398" class="micro">RESEARCH PIPELINE</text>
+    <g filter="url(#shadow)">
+      <rect x="116" y="420" width="300" height="92" rx="22" fill="#0F172A" stroke="#334155"/>
+      <circle cx="150" cy="466" r="12" fill="#8B5CF6"/>
+      <text x="176" y="458" class="label">Cyber Security</text>
+      <text x="176" y="488" class="small">Submitted</text>
+    </g><g filter="url(#shadow)">
+      <rect x="464" y="420" width="300" height="92" rx="22" fill="#0F172A" stroke="#334155"/>
+      <circle cx="498" cy="466" r="12" fill="#F59E0B"/>
+      <text x="524" y="458" class="label">Deep Learning</text>
+      <text x="524" y="488" class="small">Researching</text>
+    </g><g filter="url(#shadow)">
+      <rect x="812" y="420" width="300" height="92" rx="22" fill="#0F172A" stroke="#334155"/>
+      <circle cx="846" cy="466" r="12" fill="#10B981"/>
+      <text x="872" y="458" class="label">Signal Processing</text>
+      <text x="872" y="488" class="small">Submitted / pending</text>
+    </g>
+    <rect x="150" y="548" width="900" height="42" rx="21" fill="#020617" stroke="#334155"/>
+    <text x="600" y="575" text-anchor="middle" class="small">The spotlight shows accepted work; pipeline items show active direction without inflating publication counts.</text>
+  <text x="70" y="608" class="micro">AUTO-GENERATED BY WORKFLOW - UPDATED 2026-06-03</text>
 </svg>

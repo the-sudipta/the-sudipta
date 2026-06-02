@@ -3,7 +3,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:020617,35:0f766e,70:2563eb,100:7c3aed&text=Sudipta%20Kumar%20Das&fontColor=ffffff&fontSize=56&animation=fadeIn&fontAlignY=37&desc=CS%20Instructor%20%E2%80%A2%20Researcher%20%E2%80%A2%20Software%20Engineer&descSize=18&descAlignY=58" alt="Sudipta Kumar Das"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&duration=2600&pause=700&color=67E8F9&center=true&vCenter=true&width=920&lines=Teaching%2C+Research+Implementation%2C+Backend+Engineering.;Security+%E2%80%A2+blockchain+%E2%80%A2+algorithms+%E2%80%A2+bioinformatics.;Quantum+computing+%E2%80%A2+computational+chemistry+%E2%80%A2+systems.;Open+to+Lecturer+and+Software+roles." alt="Typing introduction"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&duration=2600&pause=700&color=67E8F9&center=true&vCenter=true&width=920&lines=Teaching%2C+Research+Implementation%2C+Backend+Engineering;Security+%E2%80%A2+blockchain+%E2%80%A2+algorithms+%E2%80%A2+bioinformatics;Quantum+computing+%E2%80%A2+computational+chemistry+%E2%80%A2+systems;Open+to+Lecturer+and+Software+roles" alt="Typing introduction"/>
 </a>
 
 <p>
@@ -101,12 +101,12 @@ My GitHub is not meant to be a PDF in disguise. It is the public lab notebook of
   <img width="100%" src="./Resources/generated/capability-matrix.svg" alt="Auto-generated capability matrix"/>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img width="100%" src="./Resources/generated/academic-timeline.svg" alt="Auto-generated academic progress board"/>
-</p>
+</p> -->
 
 <p align="center">
-  <img width="100%" src="./Resources/generated/research-engineering-map.svg" alt="Auto-generated research output meter"/>
+  <img width="100%" src="./Resources/generated/research-engineering-map.svg" alt="Auto-generated research publication spotlight"/>
 </p>
 
 ## Research Signal

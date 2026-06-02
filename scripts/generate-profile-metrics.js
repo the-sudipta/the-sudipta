@@ -5,7 +5,12 @@ const https = require("https");
 const USERNAME = process.env.GITHUB_USERNAME || "the-sudipta";
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
 const OUT_DIR = path.join(__dirname, "..", "Resources", "generated");
-const TODAY = new Date().toISOString().slice(0, 10);
+const TODAY = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Asia/Dhaka",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+}).format(new Date());
 
 function esc(value) {
   return String(value)
@@ -336,35 +341,50 @@ function makeAcademicTimeline(data) {
 }
 
 function makeResearchEngineeringMap(data) {
-  const rows = [
-    ["Image Encryption / Decryption", "published", 1, "#22D3EE"],
-    ["Cyber Security", "submitted", 0, "#8B5CF6"],
-    ["Deep Learning", "research in progress", 0, "#F59E0B"],
-    ["Signal Processing", "submitted, not accepted yet", 0, "#10B981"],
-  ];
-  let y = 150;
-  const bars = rows.map(([name, status, value, color]) => {
-    const max = 1;
-    const width = value > 0 ? Math.round((value / max) * 640) : 0;
-    const label = `${value} ${value === 1 ? "paper" : "papers"}`;
-    const out = `<g>
-      <text x="90" y="${y + 24}" class="label">${esc(name)}</text>
-      <text x="90" y="${y + 50}" class="small">${esc(status)}</text>
-      <rect x="420" y="${y + 6}" width="640" height="34" rx="17" fill="#1E293B"/>
-      <rect x="420" y="${y + 6}" width="${width}" height="34" rx="17" fill="${color}"/>
-      <text x="1100" y="${y + 31}" text-anchor="end" class="label">${esc(label)}</text>
+  const pipeline = [
+    ["Cyber Security", "Submitted", "#8B5CF6"],
+    ["Deep Learning", "Researching", "#F59E0B"],
+    ["Signal Processing", "Submitted / pending", "#10B981"],
+  ].map(([field, status, color], index) => {
+    const x = 116 + index * 348;
+    return `<g filter="url(#shadow)">
+      <rect x="${x}" y="420" width="300" height="92" rx="22" fill="#0F172A" stroke="#334155"/>
+      <circle cx="${x + 34}" cy="466" r="12" fill="${color}"/>
+      <text x="${x + 60}" y="458" class="label">${esc(field)}</text>
+      <text x="${x + 60}" y="488" class="small">${esc(status)}</text>
     </g>`;
-    y += 84;
-    return out;
   }).join("");
 
   return shell(
-    "Research Output Meter",
-    "Publication and submission status by active research field.",
-    `${bars}
-    <rect x="90" y="510" width="1020" height="42" rx="21" fill="#020617" stroke="#334155"/>
-    <text x="600" y="537" text-anchor="middle" class="small">Counts show accepted publications only; submitted and in-progress fields stay at 0 until accepted.</text>`,
-    590
+    "Research Publication Spotlight",
+    "One accepted paper, with active research threads shown as momentum instead of empty counts.",
+    `<g filter="url(#shadow)">
+      <rect x="70" y="145" width="1060" height="220" rx="28" fill="#0F172A" stroke="#334155"/>
+      <rect x="98" y="174" width="220" height="150" rx="24" fill="#020617" stroke="#22D3EE"/>
+      <text x="208" y="222" text-anchor="middle" class="num">1</text>
+      <text x="208" y="258" text-anchor="middle" class="label">Published Paper</text>
+      <text x="208" y="288" text-anchor="middle" class="small">Image encryption</text>
+      <text x="208" y="314" text-anchor="middle" class="small">and decryption</text>
+
+      <text x="350" y="194" class="micro">ACCEPTED RESEARCH</text>
+      <text x="350" y="236" class="label">Enhancing Image Encryption with</text>
+      <text x="350" y="268" class="label">Quadrant-Based Layered Multi-Key Systems</text>
+      <text x="350" y="306" class="small">International Journal of Mathematics and Computer Research</text>
+      <text x="350" y="334" class="small">Dec 2024 - DOI: 10.47191/ijmcr/v12i12.02</text>
+
+      <rect x="900" y="190" width="185" height="34" rx="17" fill="#1E293B" stroke="#334155"/>
+      <text x="992.5" y="213" text-anchor="middle" class="micro">SECURE IMAGING</text>
+      <rect x="900" y="240" width="185" height="34" rx="17" fill="#1E293B" stroke="#334155"/>
+      <text x="992.5" y="263" text-anchor="middle" class="micro">MULTI-KEY SYSTEMS</text>
+      <rect x="900" y="290" width="185" height="34" rx="17" fill="#1E293B" stroke="#334155"/>
+      <text x="992.5" y="313" text-anchor="middle" class="micro">APPLIED SECURITY</text>
+    </g>
+
+    <text x="70" y="398" class="micro">RESEARCH PIPELINE</text>
+    ${pipeline}
+    <rect x="150" y="548" width="900" height="42" rx="21" fill="#020617" stroke="#334155"/>
+    <text x="600" y="575" text-anchor="middle" class="small">The spotlight shows accepted work; pipeline items show active direction without inflating publication counts.</text>`,
+    640
   );
 }
 
