@@ -256,13 +256,13 @@ The profile above is the story. The CV is the structured document.
 
 <div align="center">
 
-<a href="https://open.spotify.com/user/31zvllsed5eq7iwjhg5by7oe24mq">
-  <img src="https://spotify-recently-played-readme.vercel.app/api?user=31zvllsed5eq7iwjhg5by7oe24mq" alt="Spotify recently played"/>
+<a href="https://www.last.fm/user/sudipta_kumar">
+  <img width="76%" src="Resources/generated/now-playing.svg" alt="Now playing from Last.fm and AirScrobble"/>
 </a>
 
 <br/><br/>
 
-<a href="https://open.spotify.com/user/31zvllsed5eq7iwjhg5by7oe24mq"><img src="https://img.shields.io/badge/Spotify-Profile-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify profile"/></a>
+<a href="https://www.last.fm/user/sudipta_kumar"><img src="https://img.shields.io/badge/Last.fm-sudipta__kumar-D51007?style=for-the-badge&logo=lastdotfm&logoColor=white" alt="Last.fm profile"/></a>
 <a href="https://www.buymeacoffee.com/sudiptaenchanted"><img src="https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=111827" alt="Buy me a coffee"/></a>
 
 </div>

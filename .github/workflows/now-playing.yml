@@ -1,0 +1,43 @@
+name: Update now playing
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/generate-now-playing.js"
+      - ".github/workflows/now-playing.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-now-playing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate Last.fm now playing card
+        env:
+          LASTFM_USERNAME: sudipta_kumar
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: node scripts/generate-now-playing.js
+
+      - name: Commit updated now playing card
+        run: |
+          if [[ -n "$(git status --porcelain Resources/generated/now-playing.svg)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add Resources/generated/now-playing.svg
+            git commit -m "chore: update now playing"
+            git push
+          else
+            echo "No now-playing changes to commit."
+          fi

@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f6bff98-f667-4e25-b4a4-145f341304fa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/generated/academic-timeline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/generated/academic-timeline.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/generated/capability-matrix.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/generated/capability-matrix.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/generated/contribution-current.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/generated/contribution-current.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/generated/craft-stack-board.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/generated/craft-stack-board.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/generated/github-pulse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/generated/github-pulse.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/generated/language-aurora.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/generated/language-aurora.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/generated/research-engineering-map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/generated/research-engineering-map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/profile-signal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/profile-signal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/generate-profile-metrics.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/generate-profile-metrics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +70,7 @@
       <workItem from="1780344372632" duration="4304000" />
       <workItem from="1780368625616" duration="50000" />
       <workItem from="1780428070231" duration="734000" />
+      <workItem from="1780440499842" duration="602000" />
     </task>
     <servers />
   </component>
