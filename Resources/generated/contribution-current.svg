@@ -1,0 +1,55 @@
+<svg width="1200" height="540" viewBox="0 0 1200 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contribution Rhythm">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="540">
+      <stop stop-color="#020617"/>
+      <stop offset=".58" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="aura" x1="76" y1="40" x2="1124" y2="510">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".30"/>
+    </filter>
+    <style>
+      .title{font:800 42px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}
+      .sub{font:600 18px Inter,Segoe UI,Arial,sans-serif;fill:#A5F3FC}
+      .label{font:700 22px Inter,Segoe UI,Arial,sans-serif;fill:#E5E7EB}
+      .small{font:500 17px Inter,Segoe UI,Arial,sans-serif;fill:#CBD5E1}
+      .num{font:900 50px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}
+      .micro{font:700 13px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8;letter-spacing:1.4px}
+    </style>
+  </defs>
+  <rect width="1200" height="540" rx="30" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="538" rx="30" stroke="url(#aura)" stroke-opacity=".48"/>
+  <text x="70" y="72" class="title">Contribution Rhythm</text>
+  <text x="70" y="104" class="sub">Weekly contribution totals across the most recent activity window.</text>
+  <g opacity=".45">
+      <path d="M70 405H1130M70 322H1130M70 239H1130M70 156H1130" stroke="#334155"/>
+    </g>
+    <rect x="92" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="107" y="440" text-anchor="middle" class="micro">0</text><rect x="144" y="363.3" width="30" height="41.7" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="159" y="440" text-anchor="middle" class="micro">2</text><rect x="196" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="211" y="440" text-anchor="middle" class="micro">0</text><rect x="248" y="363.3" width="30" height="41.7" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="263" y="440" text-anchor="middle" class="micro">2</text><rect x="300" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="315" y="440" text-anchor="middle" class="micro">0</text><rect x="352" y="384.2" width="30" height="20.8" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="367" y="440" text-anchor="middle" class="micro">1</text><rect x="404" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="419" y="440" text-anchor="middle" class="micro">0</text><rect x="456" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="471" y="440" text-anchor="middle" class="micro">0</text><rect x="508" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="523" y="440" text-anchor="middle" class="micro">0</text><rect x="560" y="384.2" width="30" height="20.8" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="575" y="440" text-anchor="middle" class="micro">1</text><rect x="612" y="384.2" width="30" height="20.8" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="627" y="440" text-anchor="middle" class="micro">1</text><rect x="664" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="679" y="440" text-anchor="middle" class="micro">0</text><rect x="716" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="731" y="440" text-anchor="middle" class="micro">0</text><rect x="768" y="321.7" width="30" height="83.3" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="783" y="440" text-anchor="middle" class="micro">4</text><rect x="820" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="835" y="440" text-anchor="middle" class="micro">0</text><rect x="872" y="155.0" width="30" height="250.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="887" y="440" text-anchor="middle" class="micro">12</text><rect x="924" y="363.3" width="30" height="41.7" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="939" y="440" text-anchor="middle" class="micro">2</text><rect x="976" y="321.7" width="30" height="83.3" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="991" y="440" text-anchor="middle" class="micro">4</text><rect x="1028" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="1043" y="440" text-anchor="middle" class="micro">0</text><rect x="1080" y="300.8" width="30" height="104.2" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="1095" y="440" text-anchor="middle" class="micro">5</text>
+    <text x="90" y="478" class="small">Numbers below each bar are weekly contribution totals.</text>
+  <text x="70" y="508" class="micro">AUTO-GENERATED BY WORKFLOW - UPDATED 2026-06-01</text>
+</svg>

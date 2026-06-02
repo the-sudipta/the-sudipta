@@ -1,0 +1,69 @@
+<svg width="1200" height="580" viewBox="0 0 1200 580" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Craft Stack">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="580">
+      <stop stop-color="#020617"/>
+      <stop offset=".58" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="aura" x1="76" y1="40" x2="1124" y2="550">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".30"/>
+    </filter>
+    <style>
+      .title{font:800 42px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}
+      .sub{font:600 18px Inter,Segoe UI,Arial,sans-serif;fill:#A5F3FC}
+      .label{font:700 22px Inter,Segoe UI,Arial,sans-serif;fill:#E5E7EB}
+      .small{font:500 17px Inter,Segoe UI,Arial,sans-serif;fill:#CBD5E1}
+      .num{font:900 50px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}
+      .micro{font:700 13px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8;letter-spacing:1.4px}
+    </style>
+  </defs>
+  <rect width="1200" height="580" rx="30" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="578" rx="30" stroke="url(#aura)" stroke-opacity=".48"/>
+  <text x="70" y="72" class="title">Craft Stack</text>
+  <text x="70" y="104" class="sub">Organized by how the tools are used in real work.</text>
+  <g filter="url(#shadow)">
+      <rect x="70" y="145" width="250" height="360" rx="24" fill="#0F172A" stroke="#334155"/>
+      <text x="195" y="185" text-anchor="middle" class="label">Backend</text>
+      <rect x="98" y="205" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="203" y="227" text-anchor="middle" class="small">PHP</text><rect x="98" y="253" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="203" y="275" text-anchor="middle" class="small">Symfony</text><rect x="98" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="203" y="323" text-anchor="middle" class="small">Java</text><rect x="98" y="349" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="203" y="371" text-anchor="middle" class="small">Spring Boot</text><rect x="98" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="203" y="419" text-anchor="middle" class="small">.NET</text><rect x="98" y="445" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="203" y="467" text-anchor="middle" class="small">NestJS</text>
+    </g><g filter="url(#shadow)">
+      <rect x="352" y="145" width="250" height="360" rx="24" fill="#0F172A" stroke="#334155"/>
+      <text x="477" y="185" text-anchor="middle" class="label">Frontend</text>
+      <rect x="380" y="205" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="485" y="227" text-anchor="middle" class="small">JavaScript</text><rect x="380" y="253" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="485" y="275" text-anchor="middle" class="small">TypeScript</text><rect x="380" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="485" y="323" text-anchor="middle" class="small">React</text><rect x="380" y="349" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="485" y="371" text-anchor="middle" class="small">AngularJS</text><rect x="380" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="485" y="419" text-anchor="middle" class="small">Twig</text><rect x="380" y="445" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="485" y="467" text-anchor="middle" class="small">Tailwind</text>
+    </g><g filter="url(#shadow)">
+      <rect x="634" y="145" width="250" height="360" rx="24" fill="#0F172A" stroke="#334155"/>
+      <text x="759" y="185" text-anchor="middle" class="label">Data</text>
+      <rect x="662" y="205" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="767" y="227" text-anchor="middle" class="small">MySQL</text><rect x="662" y="253" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="767" y="275" text-anchor="middle" class="small">PostgreSQL</text><rect x="662" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="767" y="323" text-anchor="middle" class="small">MS SQL</text><rect x="662" y="349" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="767" y="371" text-anchor="middle" class="small">Chart.js</text><rect x="662" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="767" y="419" text-anchor="middle" class="small">Analytics</text>
+    </g><g filter="url(#shadow)">
+      <rect x="916" y="145" width="250" height="360" rx="24" fill="#0F172A" stroke="#334155"/>
+      <text x="1041" y="185" text-anchor="middle" class="label">Research</text>
+      <rect x="944" y="205" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="1049" y="227" text-anchor="middle" class="small">Python</text><rect x="944" y="253" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="1049" y="275" text-anchor="middle" class="small">AI/ML</text><rect x="944" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="1049" y="323" text-anchor="middle" class="small">LaTeX</text><rect x="944" y="349" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="1049" y="371" text-anchor="middle" class="small">MATLAB</text><rect x="944" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="1049" y="419" text-anchor="middle" class="small">Documentation</text>
+    </g>
+  <text x="70" y="548" class="micro">AUTO-GENERATED BY WORKFLOW - UPDATED 2026-06-01</text>
+</svg>

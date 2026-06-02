@@ -7,6 +7,26 @@
     <list default="true" id="9f6bff98-f667-4e25-b4a4-145f341304fa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Back up CVs/Euro Pass CV - Sudipta Kumar Das 2 Re-Formatted.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Back up CVs/Euro Pass CV - Sudipta Kumar Das 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Back up CVs/Euro_Pass_CV_Sudipta Kumar Das_Mod-3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Bangladesh CV  -  Sudipta Kumar Das.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/CV - Sudipta Kumar Das - Bangladesh.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Euro Pass CV - Sudipta Kumar Das.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Awards/DEAN's List Awards.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Awards/Scholarship/AIUB Scholarship List - Fall 2021-22.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Awards/Scholarship/Academic Scholarship Link" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Certifications/Enkaizen Job Certificatoin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Certifications/IELTS Certificate - May-2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Certifications/SUDIPTA KUMAR DAS - Intro to Machine Learning.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Certifications/SUDIPTA KUMAR DAS - Pandas.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Certifications/SUDIPTA KUMARDAS-Introduction to -certificate.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Certifications/Softvence IT Limited - Appointnent Letter.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Certifications/itransition - SUDIPTA KUMAR DAS - PHP - July 16th, 2025.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Headshot - Image/Sudipta Kumar Das Official Image 25th Jan 2025 Resized.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Headshot - Image/Sudipta Kumar Das Official Image 25th Jan 2025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Recommendations/LoR of Sudipta Asraf Ali sir.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Documents/CV/Show Casing Documents/Recommendations/Recommendation Letter Tanvir Sir.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +61,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,6 +70,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +87,9 @@
       <updated>1708445106309</updated>
       <workItem from="1708445109744" duration="483000" />
       <workItem from="1708503348454" duration="59000" />
+      <workItem from="1780340031339" duration="3775000" />
+      <workItem from="1780344372632" duration="4304000" />
+      <workItem from="1780368625616" duration="50000" />
     </task>
     <servers />
   </component>
