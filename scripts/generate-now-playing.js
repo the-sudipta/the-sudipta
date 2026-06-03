@@ -114,7 +114,7 @@ function renderCard({ title, artist, album, status, profileUrl, albumArt }) {
   const accent = isLive ? "#1DB954" : "#22D3EE";
   const safeTitle = escapeSvg(trimText(title || "Waiting for the next track", 34));
   const safeArtist = escapeSvg(trimText(artist || "Last.fm + AirScrobble signal", 40));
-  const safeAlbum = escapeSvg(trimText(album || "Profile music signal", 42));
+  const safeDescription = escapeSvg(trimText(`${artist || "Last.fm + AirScrobble"}${album ? ` - ${album}` : " - profile music signal"}`, 54));
   const safeStatus = escapeSvg(status || "READY");
   const liveDot = isLive ? '<animate attributeName="opacity" values="1;.28;1" dur="1.35s" repeatCount="indefinite"/>' : "";
 
@@ -145,10 +145,11 @@ function renderCard({ title, artist, album, status, profileUrl, albumArt }) {
   </path>${renderAlbumArt({ albumArt, accent })}
   <rect x="198" y="36" width="150" height="28" rx="14" fill="${accent}" fill-opacity=".14" stroke="${accent}" stroke-opacity=".34"/>
   <circle cx="219" cy="50" r="5" fill="${accent}">${liveDot}</circle>
-  <text x="233" y="55" fill="${accent}" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="1.2">${safeStatus}</text>
-  <text x="198" y="95" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="29" font-weight="850">${safeTitle}</text>
-  <text x="198" y="123" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700">${safeArtist}</text>
-  <text x="198" y="146" fill="#94A3B8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="650">${safeAlbum}</text>
+  <text x="233" y="55" fill="${accent}" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="1.2">TYPE: ${safeStatus}</text>
+  <text x="198" y="82" fill="#64748B" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="10" font-weight="900" letter-spacing="1.5">TITLE</text>
+  <text x="198" y="111" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="30" font-weight="850">${safeTitle}</text>
+  <text x="198" y="136" fill="#64748B" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="10" font-weight="900" letter-spacing="1.5">DESCRIPTION</text>
+  <text x="198" y="157" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" font-weight="700">${safeDescription}</text>
   <rect x="606" y="36" width="192" height="116" rx="22" fill="#020617" fill-opacity=".45" stroke="#334155" stroke-opacity=".5"/>
   <text x="626" y="58" fill="#94A3B8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="1.5">AUDIO SPECTRUM</text>
   ${spectrumBars(isLive, accent)}
