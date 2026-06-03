@@ -257,7 +257,7 @@ The profile above is the story. The CV is the structured document.
 <div align="center">
 
 <a href="https://www.last.fm/user/sudipta_kumar">
-  <img width="76%" src="Resources/generated/now-playing.svg" alt="Now playing from Last.fm and AirScrobble"/>
+&#x20; <img width="76%" src="Resources/generated/now-playing.svg" alt="Now playing from Last.fm and AirScrobble"/>
 </a>
 
 <br/><br/>
