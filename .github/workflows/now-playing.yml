@@ -3,6 +3,9 @@ name: Update now playing
 on:
   schedule:
     - cron: "*/5 * * * *"
+  repository_dispatch:
+    types:
+      - lastfm_update
   workflow_dispatch:
   push:
     paths:
