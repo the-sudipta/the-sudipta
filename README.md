@@ -281,7 +281,7 @@ The profile above is the story. The CV is the structured document.
 
 <a href="mailto:sudiptakumar400@gmail.com"><img src="https://img.shields.io/badge/Email-sudiptakumar400%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="tel:+8801931117419"><img src="https://img.shields.io/badge/Phone-%2B8801931117419-16A34A?style=for-the-badge" alt="Phone"/></a>
-<a href="https://sudiptakumar.site"><img src="https://img.shields.io/badge/Website-sudiptakumar.site-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/></a>
+<a href="https://the-sudipta.github.io/portfolio/"><img src="https://img.shields.io/badge/Website-the--sudipta.github.io%2Fportfolio-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/></a>
 <a href="https://www.linkedin.com/in/sudiptakumar/"><img src="https://img.shields.io/badge/LinkedIn-sudiptakumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://orcid.org/0009-0000-7521-7763"><img src="https://img.shields.io/badge/ORCID-0009--0000--7521--7763-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
 <a href="https://www.kaggle.com/thesudipta"><img src="https://img.shields.io/badge/Kaggle-thesudipta-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/></a>
