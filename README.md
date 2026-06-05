@@ -77,32 +77,6 @@ My GitHub is not meant to be a PDF in disguise. It is the public lab notebook of
   </tr>
 </table>
 
-## Wumpus Protocol
-
-<p align="center">
-  <img width="100%" src="./Resources/generated/wumpus-protocol.svg" alt="Wumpus Protocol GitHub-native research cave game"/>
-</p>
-
-<div align="center">
-
-<a href="https://github.com/the-sudipta/the-sudipta/issues/1">
-  <img src="https://img.shields.io/badge/Enter-The%20Research%20Cave-22D3EE?style=for-the-badge&logo=github&logoColor=111827" alt="Enter the Research Cave"/>
-</a>
-<a href="https://github.com/the-sudipta/the-sudipta/issues/1">
-  <img src="https://img.shields.io/badge/Play-Through%20GitHub%20Issues-111827?style=for-the-badge&logo=githubactions&logoColor=white" alt="Play through GitHub Issues"/>
-</a>
-<a href="https://github.com/the-sudipta/the-sudipta/issues/1">
-  <img src="https://img.shields.io/badge/Commands-%2Fmove%20%7C%20%2Fsense%20%7C%20%2Fgrab%20%7C%20%2Fshoot-7C3AED?style=for-the-badge" alt="Wumpus commands"/>
-</a>
-
-</div>
-
-<!-- WUMPUS-HUNTERS:START -->
-<p align="center">
-  <a href="https://github.com/the-sudipta"><img src="https://img.shields.io/badge/Top%20Hunter-%40the--sudipta%20--%201-22D3EE?style=for-the-badge&logo=github&logoColor=white" alt="@the-sudipta - 1"/></a>
-</p>
-<!-- WUMPUS-HUNTERS:END -->
-
 ## Live Metrics
 
 <p align="center">
@@ -265,6 +239,41 @@ The profile above is the story. The CV is the structured document.
 </a>
 
 </div>
+
+## Play Wumpus Protocol
+
+<p align="center">
+  <img width="100%" src="./Resources/generated/wumpus-protocol.svg" alt="Wumpus Protocol GitHub-native research cave game"/>
+</p>
+
+<p align="center">
+  <b>A weekly GitHub Issues cave game.</b><br/>
+  Explore the cave, read clues, collect research artifacts, avoid hidden hazards, and climb the weekly hunter board.
+</p>
+
+<div align="center">
+
+<a href="https://github.com/the-sudipta/the-sudipta/issues/1">
+  <img src="https://img.shields.io/badge/Enter-The%20Research%20Cave-22D3EE?style=for-the-badge&logo=github&logoColor=111827" alt="Enter the Research Cave"/>
+</a>
+<a href="https://github.com/the-sudipta/the-sudipta/issues/1">
+  <img src="https://img.shields.io/badge/Play-Through%20GitHub%20Issues-111827?style=for-the-badge&logo=githubactions&logoColor=white" alt="Play through GitHub Issues"/>
+</a>
+<a href="./WUMPUS_PROTOCOL_RULES.md">
+  <img src="https://img.shields.io/badge/Read-The%20Rules-0F766E?style=for-the-badge&logo=readme&logoColor=white" alt="Read the Wumpus Protocol rules"/>
+</a>
+<a href="https://github.com/the-sudipta/the-sudipta/issues/1">
+  <img src="https://img.shields.io/badge/Commands-%2Fmove%20%7C%20%2Fsense%20%7C%20%2Fgrab%20%7C%20%2Fshoot-7C3AED?style=for-the-badge" alt="Wumpus commands"/>
+</a>
+
+</div>
+
+<!-- WUMPUS-HUNTERS:START -->
+<p align="center">
+  <a href="https://github.com/the-sudipta"><img src="https://img.shields.io/badge/Top%20Hunter-%40the--sudipta%20--%201-22D3EE?style=for-the-badge&logo=github&logoColor=white" alt="@the-sudipta - 1"/></a>
+</p>
+<!-- WUMPUS-HUNTERS:END -->
+
 
 ## Connect
 
