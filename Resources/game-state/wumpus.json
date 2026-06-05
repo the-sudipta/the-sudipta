@@ -25,18 +25,25 @@
     }
   },
   "player": {
-    "room": "B2",
+    "room": "B3",
     "arrows": 2,
     "status": "exploring",
     "score": 0,
     "artifacts": 0,
-    "moves": 0
+    "moves": 1
   },
   "revealed": [
-    "B2"
+    "B2",
+    "B3"
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/move east",
+      "message": "Moved to B3. North: Bioinformatics Sample. South: Context Switch.",
+      "at": "2026-06-05T08:51:23.838Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/sense",
@@ -70,21 +77,21 @@
   ],
   "latest": {
     "actor": "the-sudipta",
-    "command": "/sense",
-    "message": "North: Security Key. South: Quantum Fragment."
+    "command": "/move east",
+    "message": "Moved to B3. North: Bioinformatics Sample. South: Context Switch."
   },
   "dailyLeaderboard": {
-    "the-sudipta": 1
+    "the-sudipta": 3
   },
   "weeklyLeaderboard": {
-    "the-sudipta": 1
+    "the-sudipta": 3
   },
   "allTimeLeaderboard": {
-    "the-sudipta": 1
+    "the-sudipta": 3
   },
   "allTime": {
     "huntsWon": 0,
     "artifacts": 0,
-    "moves": 0
+    "moves": 1
   }
 }

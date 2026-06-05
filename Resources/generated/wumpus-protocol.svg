@@ -32,7 +32,7 @@
   <text x="789" y="68" fill="#22d3ee" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="1.4">EXPLORING</text>
 
   <text x="56" y="142" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">Today's Cave: Stabilize the Security Core</text>
-  <text x="56" y="166" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="750">Room B2 - arrows 2 - artifacts 0 - score 0 - date 2026-06-05</text>
+  <text x="56" y="166" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="750">Room B3 - arrows 2 - artifacts 0 - score 0 - date 2026-06-05</text>
 
   <rect x="56" y="184" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
@@ -43,22 +43,22 @@
   <rect x="174" y="184" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
 
-  <g filter="url(#tinyGlow)">
-    <circle cx="227" cy="268" r="24" fill="#22d3ee" fill-opacity=".12" stroke="#22d3ee" stroke-opacity=".62"/>
-
-  <g transform="translate(227 268) scale(0.42)" filter="url(#tinyGlow)">
-    <circle cx="-8" cy="-6" r="12" fill="#22d3ee"/><path d="M3 -6 H28 M20 -6 V5 M27 -6 V2" stroke="#22d3ee" stroke-width="7" stroke-linecap="round"/>
-
-  </g>
-  </g>
   <text x="227" y="234" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
-  <text x="227" y="248" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">A2</text>
+  <text x="227" y="272" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">A2</text>
 
   <rect x="292" y="184" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
 
+  <g filter="url(#tinyGlow)">
+    <circle cx="345" cy="268" r="24" fill="#10b981" fill-opacity=".12" stroke="#10b981" stroke-opacity=".62"/>
+
+  <g transform="translate(345 268) scale(0.42)" filter="url(#tinyGlow)">
+    <path d="M-18 -24 C18 -12 -18 12 18 24 M18 -24 C-18 -12 18 12 -18 24" stroke="#10b981" stroke-width="5" stroke-linecap="round"/><path d="M-11 -13 H11 M-12 0 H12 M-11 13 H11" stroke="#d1fae5" stroke-width="3"/>
+
+  </g>
+  </g>
   <text x="345" y="234" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
-  <text x="345" y="272" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">A3</text>
+  <text x="345" y="248" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">A3</text>
 
   <rect x="410" y="184" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
@@ -72,21 +72,21 @@
   <text x="109" y="352" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
   <text x="109" y="390" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">B1</text>
 
-  <rect x="174" y="302" width="106" height="106" rx="18" fill="#22d3ee" fill-opacity=".28" stroke="#22d3ee" stroke-opacity=".82"/>
+  <rect x="174" y="302" width="106" height="106" rx="18" fill="#334155" fill-opacity=".28" stroke="#334155" stroke-opacity=".82"/>
 
-  <g transform="translate(217 328) scale(0.62)" filter="url(#tinyGlow)">
+  <circle cx="227" cy="342" r="19" fill="#334155"/>
+  <path d="M215 342 L224 353 L242 334" stroke="#67e8f9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="227" y="390" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">B2</text>
+
+  <rect x="292" y="302" width="106" height="106" rx="18" fill="#22d3ee" fill-opacity=".28" stroke="#22d3ee" stroke-opacity=".82"/>
+
+  <g transform="translate(335 328) scale(0.62)" filter="url(#tinyGlow)">
     <ellipse cx="0" cy="0" rx="28" ry="24" fill="#f8fafc" stroke="#020617" stroke-width="4"/>
     <path d="M4 -16 L26 -4 L4 8 Z" fill="#020617"/>
     <path d="M-4 23 L36 2 L22 47 Z" fill="#f8fafc" stroke="#020617" stroke-width="4" stroke-linejoin="round"/>
     <path d="M-7 25 L-13 55 L1 55 L8 30 Z" fill="#f8fafc" stroke="#020617" stroke-width="4" stroke-linejoin="round"/>
     <path d="M16 35 L25 58 L39 58 L31 27 Z" fill="#f8fafc" stroke="#020617" stroke-width="4" stroke-linejoin="round"/>
-  </g><text x="227" y="390" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">B2</text>
-
-  <rect x="292" y="302" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
-
-
-  <text x="345" y="352" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
-  <text x="345" y="390" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">B3</text>
+  </g><text x="345" y="390" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">B3</text>
 
   <rect x="410" y="302" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
@@ -103,22 +103,24 @@
   <rect x="174" y="420" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
 
-  <g filter="url(#tinyGlow)">
-    <circle cx="227" cy="504" r="24" fill="#60a5fa" fill-opacity=".12" stroke="#60a5fa" stroke-opacity=".62"/>
-
-  <g transform="translate(227 504) scale(0.42)" filter="url(#tinyGlow)">
-    <circle cx="0" cy="0" r="6" fill="#60a5fa"/><ellipse cx="0" cy="0" rx="30" ry="10" stroke="#60a5fa" stroke-width="4"/><ellipse cx="0" cy="0" rx="30" ry="10" stroke="#60a5fa" stroke-width="4" transform="rotate(62)"/><ellipse cx="0" cy="0" rx="30" ry="10" stroke="#60a5fa" stroke-width="4" transform="rotate(-62)"/>
-
-  </g>
-  </g>
   <text x="227" y="470" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
-  <text x="227" y="484" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">C2</text>
+  <text x="227" y="508" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">C2</text>
 
   <rect x="292" y="420" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
 
+  <g filter="url(#tinyGlow)">
+    <circle cx="345" cy="504" r="24" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-opacity=".62"/>
+
+  <g transform="translate(345 500) scale(0.35)" filter="url(#tinyGlow)">
+    <path d="M-31 5 C-10 -22 12 -22 33 5 C14 27 -12 27 -31 5Z" fill="#6d28d9"/>
+    <path d="M-20 1 C-5 14 12 14 25 1" stroke="#ddd6fe" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-8" cy="-1" r="4" fill="#f8fafc"/>
+    <circle cx="14" cy="-1" r="4" fill="#f8fafc"/>
+  </g>
+  </g>
   <text x="345" y="470" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
-  <text x="345" y="508" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">C3</text>
+  <text x="345" y="484" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">C3</text>
 
   <rect x="410" y="420" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
@@ -153,12 +155,13 @@
   <rect x="602" y="126" width="340" height="142" rx="22" fill="#0f172a" fill-opacity=".78" stroke="#334155"/>
   <text x="626" y="158" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="1.4">LATEST MOVE</text>
   <text x="626" y="190" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="900">@the-sudipta</text>
-  <text x="626" y="216" fill="#a78bfa" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="850">/sense</text>
-  <text x="626" y="244" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">North: Security Key. South: Quantum Fragment.</text>
+  <text x="626" y="216" fill="#a78bfa" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="850">/move east</text>
+  <text x="626" y="244" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Moved to B3. North: Bioinformatics Sample.</text>
+  <text x="626" y="260" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">South: Context Switch.</text>
 
   <rect x="602" y="292" width="340" height="178" rx="22" fill="#0f172a" fill-opacity=".78" stroke="#334155"/>
   <text x="626" y="324" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="1.4">WEEKLY HUNTERS</text>
-  <text x="650" y="346" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="750">1. @the-sudipta - 1</text>
+  <text x="650" y="346" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="750">1. @the-sudipta - 3</text>
 
 
   <rect x="602" y="494" width="340" height="156" rx="22" fill="#0f172a" fill-opacity=".78" stroke="#334155"/>

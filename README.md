@@ -270,7 +270,7 @@ The profile above is the story. The CV is the structured document.
 
 <!-- WUMPUS-HUNTERS:START -->
 <p align="center">
-  <a href="https://github.com/the-sudipta"><img src="https://img.shields.io/badge/Top%20Hunter-%40the--sudipta%20--%201-22D3EE?style=for-the-badge&logo=github&logoColor=white" alt="@the-sudipta - 1"/></a>
+  <a href="https://github.com/the-sudipta"><img src="https://img.shields.io/badge/Top%20Hunter-%40the--sudipta%20--%203-22D3EE?style=for-the-badge&logo=github&logoColor=white" alt="@the-sudipta - 3"/></a>
 </p>
 <!-- WUMPUS-HUNTERS:END -->
 
