@@ -46,8 +46,12 @@
   <g filter="url(#tinyGlow)">
     <rect x="184" y="192" width="86" height="21" rx="10.5" fill="#22d3ee" fill-opacity=".22" stroke="#22d3ee" stroke-opacity=".95"/>
     <circle cx="196" cy="202.5" r="4.5" fill="#22d3ee"/>
-    <text x="227" y="206" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="950">NORTH KEY</text>
-    <text x="227" y="280" fill="#22d3ee" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="900">Security Key</text>
+    <text x="227" y="206" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="950">NORTH</text>
+
+  <g transform="translate(227 268) scale(0.42)" filter="url(#tinyGlow)">
+    <circle cx="-8" cy="-6" r="12" fill="#22d3ee"/><path d="M3 -6 H28 M20 -6 V5 M27 -6 V2" stroke="#22d3ee" stroke-width="7" stroke-linecap="round"/>
+
+  </g>
   </g>
   <text x="227" y="234" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
   <text x="227" y="254" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">A2</text>
@@ -104,8 +108,12 @@
   <g filter="url(#tinyGlow)">
     <rect x="184" y="428" width="86" height="21" rx="10.5" fill="#60a5fa" fill-opacity=".22" stroke="#60a5fa" stroke-opacity=".95"/>
     <circle cx="196" cy="438.5" r="4.5" fill="#60a5fa"/>
-    <text x="227" y="442" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="950">SOUTH QNT</text>
-    <text x="227" y="516" fill="#60a5fa" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="900">Quantum Frag...</text>
+    <text x="227" y="442" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="950">SOUTH</text>
+
+  <g transform="translate(227 504) scale(0.42)" filter="url(#tinyGlow)">
+    <circle cx="0" cy="0" r="6" fill="#60a5fa"/><ellipse cx="0" cy="0" rx="30" ry="10" stroke="#60a5fa" stroke-width="4"/><ellipse cx="0" cy="0" rx="30" ry="10" stroke="#60a5fa" stroke-width="4" transform="rotate(62)"/><ellipse cx="0" cy="0" rx="30" ry="10" stroke="#60a5fa" stroke-width="4" transform="rotate(-62)"/>
+
+  </g>
   </g>
   <text x="227" y="470" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
   <text x="227" y="490" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">C2</text>

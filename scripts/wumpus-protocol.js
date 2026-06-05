@@ -509,7 +509,7 @@ function roomClues(state, room) {
   if (state.layout.artifacts[room] && !state.collected.includes(room)) {
     const artifact = state.layout.artifacts[room];
     const theme = artifactTheme(artifact);
-    clues.push({ type: "artifact", label: theme.label, text: artifact, color: theme.color });
+    clues.push({ type: "artifact", label: theme.label, text: artifact, color: theme.color, artifact });
   }
 
   return clues.length ? { direction, clues } : null;
@@ -527,15 +527,25 @@ function renderClueMarker(state, room, x, y, size) {
   <g filter="url(#tinyGlow)">
     <rect x="${x + 10}" y="${y + 8}" width="${size - 20}" height="21" rx="10.5" fill="${primary.color}" fill-opacity=".22" stroke="${primary.color}" stroke-opacity=".95"/>
     <circle cx="${x + 22}" cy="${y + 18.5}" r="4.5" fill="${primary.color}"/>
-    <text x="${cx}" y="${y + 22}" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="950">${direction} ${primary.label}</text>
-    <text x="${cx}" y="${y + 96}" fill="${primary.color}" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="900">${escapeSvg(trim(primary.text, 15))}</text>
+    <text x="${cx}" y="${y + 22}" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="950">${direction}</text>
+    ${renderClueIcon(primary, cx, y + 84)}
   </g>`;
 }
 
-function renderArtifactIcon(name, cx, cy, scale = 1) {
+function renderClueIcon(clue, cx, cy) {
+  if (clue.type === "artifact") return renderArtifactIcon(clue.artifact, cx, cy, 0.42, false);
+  if (clue.type === "danger") return renderWumpusIcon(cx, cy - 4, 0.32);
+  if (clue.type === "pit") return renderPitIcon(cx, cy - 5, 0.35);
+  if (clue.type === "context") return renderContextIcon(cx, cy - 4, 0.35);
+  return "";
+}
+
+function renderArtifactIcon(name, cx, cy, scale = 1, showLabel = true) {
   const theme = artifactTheme(name);
   const s = scale;
-  const commonText = `<text x="0" y="29" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="900">${theme.label}</text>`;
+  const commonText = showLabel
+    ? `<text x="0" y="29" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="900">${theme.label}</text>`
+    : "";
   const shapes = {
     hex: `<path d="M0 -28 L24 -14 L24 14 L0 28 L-24 14 L-24 -14 Z" fill="${theme.color}" fill-opacity=".9"/><path d="M-12 1 H12 M-6 -9 L6 11" stroke="#020617" stroke-width="4" stroke-linecap="round"/>`,
     key: `<circle cx="-8" cy="-6" r="12" fill="${theme.color}"/><path d="M3 -6 H28 M20 -6 V5 M27 -6 V2" stroke="${theme.color}" stroke-width="7" stroke-linecap="round"/>`,
@@ -594,7 +604,7 @@ function renderCellContent(state, room, label, x, y, size) {
   }
   if (label === "ART") {
     const artifact = state.layout.artifacts[room];
-    return `${renderArtifactIcon(artifact, cx, cy - 2, 0.75)}${roomLabel}`;
+    return `${renderArtifactIcon(artifact, cx, cy - 2, 0.75, false)}${roomLabel}`;
   }
   if (label === "SAFE") {
     return `
