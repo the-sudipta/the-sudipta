@@ -521,13 +521,10 @@ function renderClueMarker(state, room, x, y, size) {
 
   const primary = clueSet.clues[0];
   const cx = x + size / 2;
-  const direction = clueSet.direction.toUpperCase();
 
   return `
   <g filter="url(#tinyGlow)">
-    <rect x="${x + 10}" y="${y + 8}" width="${size - 20}" height="21" rx="10.5" fill="${primary.color}" fill-opacity=".22" stroke="${primary.color}" stroke-opacity=".95"/>
-    <circle cx="${x + 22}" cy="${y + 18.5}" r="4.5" fill="${primary.color}"/>
-    <text x="${cx}" y="${y + 22}" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="950">${direction}</text>
+    <circle cx="${cx}" cy="${y + 84}" r="24" fill="${primary.color}" fill-opacity=".12" stroke="${primary.color}" stroke-opacity=".62"/>
     ${renderClueIcon(primary, cx, y + 84)}
   </g>`;
 }
@@ -586,7 +583,7 @@ function renderCellContent(state, room, label, x, y, size) {
   const cx = x + size / 2;
   const cy = y + 44;
   const clueSet = roomClues(state, room);
-  const roomY = clueSet && label === "?" ? y + 70 : y + 88;
+  const roomY = clueSet && label === "?" ? y + 64 : y + 88;
   const roomLabel = `<text x="${cx}" y="${roomY}" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">${room}</text>`;
   const clueMarker = renderClueMarker(state, room, x, y, size);
 
