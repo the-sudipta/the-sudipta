@@ -489,6 +489,49 @@ function artifactTheme(name) {
   return { color: "#14b8a6", label: "SYS", shape: "grid" };
 }
 
+function roomDirectionFromPlayer(state, room) {
+  const [playerRow, playerCol] = roomToPoint(state.player.room);
+  const [roomRow, roomCol] = roomToPoint(room);
+  const deltaRow = roomRow - playerRow;
+  const deltaCol = roomCol - playerCol;
+
+  return Object.entries(DIRECTIONS).find(([, [dr, dc]]) => dr === deltaRow && dc === deltaCol)?.[0] || null;
+}
+
+function roomClues(state, room) {
+  const direction = roomDirectionFromPlayer(state, room);
+  if (!direction) return null;
+
+  const clues = [];
+  if (room === state.layout.wumpus) clues.push({ type: "danger", label: "WMP", text: "Unsolved Problem", color: "#ef4444" });
+  if (state.layout.pits.includes(room)) clues.push({ type: "pit", label: "PIT", text: "Broken Build", color: "#f97316" });
+  if (state.layout.bats.includes(room)) clues.push({ type: "context", label: "CTX", text: "Context Switch", color: "#a78bfa" });
+  if (state.layout.artifacts[room] && !state.collected.includes(room)) {
+    const artifact = state.layout.artifacts[room];
+    const theme = artifactTheme(artifact);
+    clues.push({ type: "artifact", label: theme.label, text: artifact, color: theme.color });
+  }
+
+  return clues.length ? { direction, clues } : null;
+}
+
+function renderClueMarker(state, room, x, y, size) {
+  const clueSet = roomClues(state, room);
+  if (!clueSet) return "";
+
+  const primary = clueSet.clues[0];
+  const cx = x + size / 2;
+  const direction = clueSet.direction.toUpperCase();
+
+  return `
+  <g filter="url(#tinyGlow)">
+    <rect x="${x + 10}" y="${y + 8}" width="${size - 20}" height="21" rx="10.5" fill="${primary.color}" fill-opacity=".22" stroke="${primary.color}" stroke-opacity=".95"/>
+    <circle cx="${x + 22}" cy="${y + 18.5}" r="4.5" fill="${primary.color}"/>
+    <text x="${cx}" y="${y + 22}" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="950">${direction} ${primary.label}</text>
+    <text x="${cx}" y="${y + 96}" fill="${primary.color}" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="900">${escapeSvg(trim(primary.text, 15))}</text>
+  </g>`;
+}
+
 function renderArtifactIcon(name, cx, cy, scale = 1) {
   const theme = artifactTheme(name);
   const s = scale;
@@ -532,7 +575,10 @@ function renderContextIcon(cx, cy, scale = 1) {
 function renderCellContent(state, room, label, x, y, size) {
   const cx = x + size / 2;
   const cy = y + 44;
-  const roomLabel = `<text x="${cx}" y="${y + 88}" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">${room}</text>`;
+  const clueSet = roomClues(state, room);
+  const roomY = clueSet && label === "?" ? y + 70 : y + 88;
+  const roomLabel = `<text x="${cx}" y="${roomY}" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">${room}</text>`;
+  const clueMarker = renderClueMarker(state, room, x, y, size);
 
   if (label === "AGENT") {
     return `${renderAgentIcon(cx - 10, y + 26, 0.62)}${roomLabel}`;
@@ -557,38 +603,24 @@ function renderCellContent(state, room, label, x, y, size) {
   ${roomLabel}`;
   }
   return `
-  <text x="${cx}" y="${y + 48}" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
+  ${clueMarker}
+  <text x="${cx}" y="${y + 50}" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
   ${roomLabel}`;
 }
 
-function renderSenseRadar(state) {
-  const clues = senseClues(state);
-  const positions = {
-    north: [766, 533],
-    west: [682, 577],
-    east: [850, 577],
-    south: [766, 621],
-  };
-
-  const directionRows = Object.entries(positions).map(([direction, [x, y]]) => {
-    const items = clues[direction];
-    const active = items.length > 0;
-    const color = active ? "#22d3ee" : "#334155";
-    const text = active ? trim(items.join(" + "), 24) : "quiet";
-    return `
-  <g>
-    <rect x="${x - 70}" y="${y - 17}" width="140" height="34" rx="17" fill="${color}" fill-opacity="${active ? ".22" : ".16"}" stroke="${color}" stroke-opacity="${active ? ".9" : ".48"}"/>
-    <text x="${x}" y="${y - 2}" fill="${active ? "#f8fafc" : "#94a3b8"}" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="900">${direction.toUpperCase()}</text>
-    <text x="${x}" y="${y + 12}" fill="${active ? "#67e8f9" : "#64748b"}" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="800">${escapeSvg(text)}</text>
-  </g>`;
-  }).join("\n");
-
+function renderCommandPanel() {
   return `
   <rect x="602" y="494" width="340" height="156" rx="22" fill="#0f172a" fill-opacity=".78" stroke="#334155"/>
-  <text x="626" y="526" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="1.4">SENSE RADAR</text>
-  <circle cx="766" cy="577" r="26" fill="#020617" stroke="#22d3ee" stroke-opacity=".5"/>
-  ${renderAgentIcon(758, 555, 0.26)}
-  ${directionRows}`;
+  <text x="626" y="526" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="1.4">CAVE CONTROLS</text>
+  <rect x="626" y="546" width="126" height="30" rx="15" fill="#22d3ee" fill-opacity=".13" stroke="#22d3ee" stroke-opacity=".42"/>
+  <text x="689" y="566" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">/SENSE</text>
+  <rect x="764" y="546" width="132" height="30" rx="15" fill="#8b5cf6" fill-opacity=".16" stroke="#8b5cf6" stroke-opacity=".5"/>
+  <text x="830" y="566" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">/GRAB</text>
+  <rect x="626" y="586" width="126" height="30" rx="15" fill="#10b981" fill-opacity=".13" stroke="#10b981" stroke-opacity=".42"/>
+  <text x="689" y="606" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">/MOVE</text>
+  <rect x="764" y="586" width="132" height="30" rx="15" fill="#f97316" fill-opacity=".14" stroke="#f97316" stroke-opacity=".45"/>
+  <text x="830" y="606" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">/SHOOT</text>
+  <text x="626" y="637" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="750">Clue tags appear directly on nearby cave rooms.</text>`;
 }
 
 function renderSvg(state) {
@@ -665,7 +697,7 @@ function renderSvg(state) {
   <text x="626" y="324" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="1.4">WEEKLY HUNTERS</text>
   ${leaderboardRows}
 
-  ${renderSenseRadar(state)}
+  ${renderCommandPanel()}
 
   <text x="56" y="674" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="900" letter-spacing="1.4">AUTO-GENERATED BY GITHUB ACTIONS - COMMANDS: /MOVE, /SENSE, /GRAB, /SHOOT</text>
 </svg>`;
