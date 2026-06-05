@@ -36,6 +36,12 @@
   "collected": [],
   "history": [
     {
+      "actor": "the-sudipta",
+      "command": "/help",
+      "message": "Commands: /move north, /move south, /move east, /move west, /sense, /grab, /shoot east, /reset.",
+      "at": "2026-06-05T07:03:44.068Z"
+    },
+    {
       "actor": "github",
       "command": "/render",
       "message": "Rendered the current cave state.",
@@ -55,9 +61,9 @@
     }
   ],
   "latest": {
-    "actor": "github",
-    "command": "/render",
-    "message": "Rendered the current cave state."
+    "actor": "the-sudipta",
+    "command": "/help",
+    "message": "Commands: /move north, /move south, /move east, /move west, /sense, /grab, /shoot east, /reset."
   },
   "dailyLeaderboard": {},
   "weeklyLeaderboard": {},

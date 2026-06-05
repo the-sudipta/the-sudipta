@@ -108,9 +108,9 @@
 
   <rect x="602" y="126" width="340" height="142" rx="22" fill="#0f172a" fill-opacity=".78" stroke="#334155"/>
   <text x="626" y="158" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="1.4">LATEST MOVE</text>
-  <text x="626" y="190" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="900">@github</text>
-  <text x="626" y="216" fill="#a78bfa" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="850">/render</text>
-  <text x="626" y="244" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Rendered the current cave state.</text>
+  <text x="626" y="190" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="900">@the-sudipta</text>
+  <text x="626" y="216" fill="#a78bfa" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="850">/help</text>
+  <text x="626" y="244" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Commands: /move north, /move south, /move eas...</text>
 
   <rect x="602" y="292" width="340" height="178" rx="22" fill="#0f172a" fill-opacity=".78" stroke="#334155"/>
   <text x="626" y="324" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="1.4">WEEKLY HUNTERS</text>
