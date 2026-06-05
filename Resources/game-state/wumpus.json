@@ -37,6 +37,12 @@
   "history": [
     {
       "actor": "the-sudipta",
+      "command": "/sense",
+      "message": "A research artifact glows close by.",
+      "at": "2026-06-05T07:10:51.956Z"
+    },
+    {
+      "actor": "the-sudipta",
       "command": "/help",
       "message": "Commands: /move north, /move south, /move east, /move west, /sense, /grab, /shoot east, /reset.",
       "at": "2026-06-05T07:03:44.068Z"
@@ -62,12 +68,18 @@
   ],
   "latest": {
     "actor": "the-sudipta",
-    "command": "/help",
-    "message": "Commands: /move north, /move south, /move east, /move west, /sense, /grab, /shoot east, /reset."
+    "command": "/sense",
+    "message": "A research artifact glows close by."
   },
-  "dailyLeaderboard": {},
-  "weeklyLeaderboard": {},
-  "allTimeLeaderboard": {},
+  "dailyLeaderboard": {
+    "the-sudipta": 1
+  },
+  "weeklyLeaderboard": {
+    "the-sudipta": 1
+  },
+  "allTimeLeaderboard": {
+    "the-sudipta": 1
+  },
   "allTime": {
     "huntsWon": 0,
     "artifacts": 0,
