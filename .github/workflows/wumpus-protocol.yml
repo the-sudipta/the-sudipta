@@ -1,0 +1,62 @@
+name: Wumpus Protocol
+
+on:
+  issues:
+    types:
+      - opened
+  issue_comment:
+    types:
+      - created
+  schedule:
+    - cron: "9 18 * * *"
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "Command to run, for example /render or /reset"
+        required: false
+        default: "/render"
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: wumpus-protocol
+  cancel-in-progress: false
+
+jobs:
+  play:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
+      ((github.event_name == 'issues' || github.event_name == 'issue_comment') &&
+      (contains(github.event.issue.title, 'Wumpus') || contains(github.event.issue.title, 'Research Cave')))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run cave engine
+        env:
+          WUMPUS_COMMAND: ${{ github.event.inputs.command || '/render' }}
+        run: node scripts/wumpus-protocol.js
+
+      - name: Commit updated cave
+        run: |
+          if [[ -n "$(git status --porcelain Resources/game-state/wumpus.json Resources/generated/wumpus-protocol.svg)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add Resources/game-state/wumpus.json Resources/generated/wumpus-protocol.svg
+            git commit -m "chore: update wumpus protocol"
+            git pull --rebase origin main
+            git push
+          else
+            echo "No cave changes to commit."
+          fi

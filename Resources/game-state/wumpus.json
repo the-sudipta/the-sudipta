@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "date": "2026-06-05",
+  "week": "2026-W23",
+  "resetCounter": 0,
+  "layout": {
+    "size": 4,
+    "mission": "Stabilize the Security Core",
+    "wumpus": "A1",
+    "pits": [
+      "D1",
+      "D4"
+    ],
+    "bats": [
+      "C3"
+    ],
+    "artifacts": {
+      "C1": "Algorithm Relic",
+      "A2": "Security Key",
+      "C4": "Blockchain Ledger",
+      "A3": "Bioinformatics Sample",
+      "C2": "Quantum Fragment"
+    }
+  },
+  "player": {
+    "room": "B2",
+    "arrows": 2,
+    "status": "exploring",
+    "score": 0,
+    "artifacts": 0,
+    "moves": 0
+  },
+  "revealed": [
+    "B2"
+  ],
+  "collected": [],
+  "history": [
+    {
+      "actor": "github",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-06-05T06:55:00.421Z"
+    },
+    {
+      "actor": "github",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-06-05T06:45:28.184Z"
+    },
+    {
+      "actor": "github",
+      "command": "/daily-reset",
+      "message": "A new daily cave has opened.",
+      "at": "2026-06-05T06:45:28.184Z"
+    }
+  ],
+  "latest": {
+    "actor": "github",
+    "command": "/render",
+    "message": "Rendered the current cave state."
+  },
+  "dailyLeaderboard": {},
+  "weeklyLeaderboard": {},
+  "allTimeLeaderboard": {},
+  "allTime": {
+    "huntsWon": 0,
+    "artifacts": 0,
+    "moves": 0
+  }
+}

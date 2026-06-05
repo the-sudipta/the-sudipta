@@ -1,0 +1,126 @@
+<svg width="1000" height="720" viewBox="0 0 1000 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wumpus Protocol GitHub game board">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="720">
+      <stop stop-color="#020617"/>
+      <stop offset=".55" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="40" y1="0" x2="960" y2="0">
+      <stop stop-color="#22d3ee"/>
+      <stop offset=".5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1000" height="720" rx="28" fill="url(#bg)"/>
+  <rect x="18" y="18" width="964" height="684" rx="24" fill="#020617" fill-opacity=".48" stroke="#22d3ee" stroke-opacity=".44"/>
+  <path d="M44 102h912" stroke="url(#line)" stroke-width="3" stroke-linecap="round" filter="url(#softGlow)"/>
+  <text x="52" y="62" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="900">Wumpus Protocol</text>
+  <text x="54" y="88" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">A GitHub-native research cave game powered by Issues and Actions</text>
+  <rect x="650" y="44" width="278" height="36" rx="18" fill="#22d3ee" fill-opacity=".14" stroke="#22d3ee" stroke-opacity=".55"/>
+  <text x="789" y="68" fill="#22d3ee" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="1.4">EXPLORING</text>
+
+  <text x="56" y="142" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">Today's Cave: Stabilize the Security Core</text>
+  <text x="56" y="166" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="750">Room B2 - arrows 2 - artifacts 0 - score 0 - date 2026-06-05</text>
+
+  <rect x="56" y="184" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="109" y="230" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="109" y="258" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">A1</text>
+
+
+  <rect x="174" y="184" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="227" y="230" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="227" y="258" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">A2</text>
+
+
+  <rect x="292" y="184" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="345" y="230" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="345" y="258" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">A3</text>
+
+
+  <rect x="410" y="184" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="463" y="230" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="463" y="258" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">A4</text>
+
+
+  <rect x="56" y="302" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="109" y="348" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="109" y="376" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">B1</text>
+
+
+  <rect x="174" y="302" width="106" height="106" rx="18" fill="#22d3ee" fill-opacity=".28" stroke="#22d3ee" stroke-opacity=".82"/>
+  <text x="227" y="348" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="900">AGENT</text>
+  <text x="227" y="376" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">B2</text>
+
+
+  <rect x="292" y="302" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="345" y="348" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="345" y="376" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">B3</text>
+
+
+  <rect x="410" y="302" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="463" y="348" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="463" y="376" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">B4</text>
+
+
+  <rect x="56" y="420" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="109" y="466" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="109" y="494" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">C1</text>
+
+
+  <rect x="174" y="420" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="227" y="466" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="227" y="494" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">C2</text>
+
+
+  <rect x="292" y="420" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="345" y="466" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="345" y="494" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">C3</text>
+
+
+  <rect x="410" y="420" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="463" y="466" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="463" y="494" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">C4</text>
+
+
+  <rect x="56" y="538" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="109" y="584" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="109" y="612" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">D1</text>
+
+
+  <rect x="174" y="538" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="227" y="584" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="227" y="612" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">D2</text>
+
+
+  <rect x="292" y="538" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="345" y="584" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="345" y="612" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">D3</text>
+
+
+  <rect x="410" y="538" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
+  <text x="463" y="584" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">?</text>
+  <text x="463" y="612" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">D4</text>
+
+
+  <rect x="602" y="126" width="340" height="142" rx="22" fill="#0f172a" fill-opacity=".78" stroke="#334155"/>
+  <text x="626" y="158" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="1.4">LATEST MOVE</text>
+  <text x="626" y="190" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="900">@github</text>
+  <text x="626" y="216" fill="#a78bfa" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="850">/render</text>
+  <text x="626" y="244" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Rendered the current cave state.</text>
+
+  <rect x="602" y="292" width="340" height="178" rx="22" fill="#0f172a" fill-opacity=".78" stroke="#334155"/>
+  <text x="626" y="324" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="1.4">WEEKLY HUNTERS</text>
+  <text x="650" y="346" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="750">No hunters yet. Be first.</text>
+
+  <rect x="602" y="494" width="340" height="150" rx="22" fill="#0f172a" fill-opacity=".78" stroke="#334155"/>
+  <text x="626" y="526" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="1.4">COMMANDS</text>
+  <text x="626" y="558" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">/move north  /move east</text>
+  <text x="626" y="584" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">/sense  /grab  /shoot west</text>
+  <text x="626" y="610" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="750">WMP = unsolved problem, PIT = broken build, CTX = context switch</text>
+
+  <text x="56" y="674" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="900" letter-spacing="1.4">AUTO-GENERATED BY GITHUB ACTIONS - PLAY THROUGH ISSUE COMMANDS</text>
+</svg>
