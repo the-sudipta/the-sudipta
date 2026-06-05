@@ -742,7 +742,37 @@ function writeReadmeIssueLinks(state) {
     /https:\/\/github\.com\/the-sudipta\/the-sudipta\/issues\/(?:new\?[^"]*|\d+)/g,
     state.activeIssueUrl
   );
-  if (next !== readme) fs.writeFileSync(README_FILE, next, "utf8");
+  const withHunters = writeReadmeHunters(next, state);
+  if (withHunters !== readme) fs.writeFileSync(README_FILE, withHunters, "utf8");
+}
+
+function shieldText(value) {
+  return encodeURIComponent(String(value)).replace(/-/g, "--");
+}
+
+function renderHunterLinks(state) {
+  const hunters = topEntries(state.weeklyLeaderboard, 5);
+  if (!hunters.length) {
+    return `<p align="center">\n  <a href="${state.activeIssueUrl}"><img src="https://img.shields.io/badge/Weekly%20Hunters-Be%20first-64748B?style=for-the-badge&logo=github&logoColor=white" alt="Be the first weekly hunter"/></a>\n</p>`;
+  }
+
+  const badges = hunters.map(([name, score], index) => {
+    const label = index === 0 ? "Top Hunter" : `Hunter ${index + 1}`;
+    const message = `@${name} - ${score}`;
+    return `  <a href="https://github.com/${escapeSvg(name)}"><img src="https://img.shields.io/badge/${shieldText(label)}-${shieldText(message)}-22D3EE?style=for-the-badge&logo=github&logoColor=white" alt="@${escapeSvg(name)} - ${score}"/></a>`;
+  });
+
+  return `<p align="center">\n${badges.join("\n")}\n</p>`;
+}
+
+function writeReadmeHunters(readme, state) {
+  const start = "<!-- WUMPUS-HUNTERS:START -->";
+  const end = "<!-- WUMPUS-HUNTERS:END -->";
+  const block = `${start}\n${renderHunterLinks(state)}\n${end}`;
+  const pattern = new RegExp(`${start}[\\s\\S]*?${end}`);
+
+  if (pattern.test(readme)) return readme.replace(pattern, block);
+  return readme.replace("</div>\n\n## Live Metrics", `</div>\n\n${block}\n\n## Live Metrics`);
 }
 
 function main() {
