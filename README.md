@@ -85,11 +85,15 @@ My GitHub is not meant to be a PDF in disguise. It is the public lab notebook of
 
 <div align="center">
 
-<a href="https://github.com/the-sudipta/the-sudipta/issues/new?title=Wumpus%20Protocol%20Command&body=%2Fhelp%0A%0ACommands%3A%0A%2Fmove%20north%0A%2Fmove%20south%0A%2Fmove%20east%0A%2Fmove%20west%0A%2Fsense%0A%2Fgrab%0A%2Fshoot%20east%0A%2Freset">
+<a href="https://github.com/the-sudipta/the-sudipta/issues/1">
   <img src="https://img.shields.io/badge/Enter-The%20Research%20Cave-22D3EE?style=for-the-badge&logo=github&logoColor=111827" alt="Enter the Research Cave"/>
 </a>
-<img src="https://img.shields.io/badge/Play-Through%20GitHub%20Issues-111827?style=for-the-badge&logo=githubactions&logoColor=white" alt="Play through GitHub Issues"/>
-<img src="https://img.shields.io/badge/Commands-%2Fmove%20%7C%20%2Fsense%20%7C%20%2Fgrab%20%7C%20%2Fshoot-7C3AED?style=for-the-badge" alt="Wumpus commands"/>
+<a href="https://github.com/the-sudipta/the-sudipta/issues/1">
+  <img src="https://img.shields.io/badge/Play-Through%20GitHub%20Issues-111827?style=for-the-badge&logo=githubactions&logoColor=white" alt="Play through GitHub Issues"/>
+</a>
+<a href="https://github.com/the-sudipta/the-sudipta/issues/1">
+  <img src="https://img.shields.io/badge/Commands-%2Fmove%20%7C%20%2Fsense%20%7C%20%2Fgrab%20%7C%20%2Fshoot-7C3AED?style=for-the-badge" alt="Wumpus commands"/>
+</a>
 
 </div>
 
