@@ -3,6 +3,8 @@
   "date": "2026-06-05",
   "week": "2026-W23",
   "resetCounter": 0,
+  "activeIssueNumber": 1,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/1",
   "layout": {
     "size": 4,
     "mission": "Stabilize the Security Core",

@@ -8,7 +8,7 @@ on:
     types:
       - created
   schedule:
-    - cron: "9 18 * * *"
+    - cron: "9 18 * * 0"
   workflow_dispatch:
     inputs:
       command:
@@ -18,7 +18,7 @@ on:
 
 permissions:
   contents: write
-  issues: read
+  issues: write
 
 concurrency:
   group: wumpus-protocol
@@ -30,6 +30,7 @@ jobs:
       github.event_name == 'workflow_dispatch' ||
       github.event_name == 'schedule' ||
       ((github.event_name == 'issues' || github.event_name == 'issue_comment') &&
+      github.actor != 'github-actions[bot]' &&
       (contains(github.event.issue.title, 'Wumpus') || contains(github.event.issue.title, 'Research Cave')))
     runs-on: ubuntu-latest
     steps:
@@ -43,17 +44,78 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Ensure weekly cave issue
+        id: cave_issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const path = "Resources/game-state/wumpus.json";
+            const state = fs.existsSync(path) ? JSON.parse(fs.readFileSync(path, "utf8")) : {};
+            const date = new Intl.DateTimeFormat("en-CA", {
+              timeZone: "Asia/Dhaka",
+              year: "numeric",
+              month: "2-digit",
+              day: "2-digit",
+            }).format(new Date());
+            const weekKey = (dateText) => {
+              const date = new Date(`${dateText}T00:00:00Z`);
+              const day = date.getUTCDay() || 7;
+              date.setUTCDate(date.getUTCDate() + 4 - day);
+              const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
+              const week = Math.ceil((((date - yearStart) / 86400000) + 1) / 7);
+              return `${date.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
+            };
+            const week = weekKey(date);
+            let issueNumber = state.activeIssueNumber;
+            let issueUrl = state.activeIssueUrl;
+
+            if (state.week !== week || !issueNumber || !issueUrl) {
+              const title = `Wumpus Protocol Command - ${week}`;
+              const body = [
+                `Weekly Wumpus Protocol cave for **${week}**.`,
+                "",
+                "Comment one command at a time:",
+                "",
+                "```txt",
+                "/help",
+                "/sense",
+                "/move north",
+                "/move south",
+                "/move east",
+                "/move west",
+                "/grab",
+                "/shoot east",
+                "```",
+                "",
+                "The README board updates after GitHub Actions processes each command."
+              ].join("\n");
+              const issue = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+              });
+              issueNumber = issue.data.number;
+              issueUrl = issue.data.html_url;
+            }
+
+            core.setOutput("number", String(issueNumber));
+            core.setOutput("url", issueUrl);
+
       - name: Run cave engine
         env:
           WUMPUS_COMMAND: ${{ github.event.inputs.command || '/render' }}
+          WUMPUS_ACTIVE_ISSUE_NUMBER: ${{ steps.cave_issue.outputs.number }}
+          WUMPUS_ACTIVE_ISSUE_URL: ${{ steps.cave_issue.outputs.url }}
         run: node scripts/wumpus-protocol.js
 
       - name: Commit updated cave
         run: |
-          if [[ -n "$(git status --porcelain Resources/game-state/wumpus.json Resources/generated/wumpus-protocol.svg)" ]]; then
+          if [[ -n "$(git status --porcelain README.md Resources/game-state/wumpus.json Resources/generated/wumpus-protocol.svg)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add Resources/game-state/wumpus.json Resources/generated/wumpus-protocol.svg
+            git add README.md Resources/game-state/wumpus.json Resources/generated/wumpus-protocol.svg
             git commit -m "chore: update wumpus protocol"
             git pull --rebase origin main
             git push

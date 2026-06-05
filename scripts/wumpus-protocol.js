@@ -4,6 +4,7 @@ const path = require("path");
 const ROOT = path.join(__dirname, "..");
 const STATE_FILE = path.join(ROOT, "Resources", "game-state", "wumpus.json");
 const SVG_FILE = path.join(ROOT, "Resources", "generated", "wumpus-protocol.svg");
+const README_FILE = path.join(ROOT, "README.md");
 const CAVE_SIZE = 4;
 const START_ROOM = "B2";
 const DIRECTIONS = {
@@ -34,9 +35,11 @@ function todayDhaka() {
 
 function weekKey(dateText) {
   const date = new Date(`${dateText}T00:00:00Z`);
-  const start = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
-  const day = Math.floor((date - start) / 86400000) + 1;
-  return `${date.getUTCFullYear()}-W${String(Math.ceil(day / 7)).padStart(2, "0")}`;
+  const day = date.getUTCDay() || 7;
+  date.setUTCDate(date.getUTCDate() + 4 - day);
+  const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
+  const week = Math.ceil((((date - yearStart) / 86400000) + 1) / 7);
+  return `${date.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
 }
 
 function hashSeed(text) {
@@ -118,8 +121,8 @@ function shuffle(items, random) {
   return copy;
 }
 
-function createCave(date, resetCounter = 0) {
-  const random = rng(`${date}:${resetCounter}:wumpus-protocol`);
+function createCave(seedKey, resetCounter = 0) {
+  const random = rng(`${seedKey}:${resetCounter}:wumpus-protocol`);
   const protectedRooms = new Set([START_ROOM, ...neighbors(START_ROOM)]);
   const candidates = shuffle(allRooms().filter((room) => !protectedRooms.has(room)), random);
   const fallback = shuffle(allRooms().filter((room) => room !== START_ROOM), random);
@@ -137,7 +140,7 @@ function createCave(date, resetCounter = 0) {
 
   return {
     size: CAVE_SIZE,
-    mission: missionFor(date, resetCounter),
+    mission: missionFor(seedKey, resetCounter),
     wumpus,
     pits,
     bats,
@@ -145,7 +148,7 @@ function createCave(date, resetCounter = 0) {
   };
 }
 
-function missionFor(date, resetCounter) {
+function missionFor(seedKey, resetCounter) {
   const missions = [
     "Decode the Algorithm Gate",
     "Trace the Blockchain Ledger",
@@ -155,7 +158,7 @@ function missionFor(date, resetCounter) {
     "Recover the Chemistry Formula",
     "Repair the System Blueprint",
   ];
-  const index = hashSeed(`${date}:${resetCounter}`) % missions.length;
+  const index = hashSeed(`${seedKey}:${resetCounter}`) % missions.length;
   return missions[index];
 }
 
@@ -185,26 +188,43 @@ function saveState(state) {
 function ensureState(state) {
   const date = todayDhaka();
   const week = weekKey(date);
+  const activeIssueNumber = Number(process.env.WUMPUS_ACTIVE_ISSUE_NUMBER || state.activeIssueNumber || 1);
+  const activeIssueUrl = process.env.WUMPUS_ACTIVE_ISSUE_URL || state.activeIssueUrl || issueUrl(activeIssueNumber);
 
-  if (state.date !== date || !state.layout || !state.player) {
-    return freshState(state, date, week, state.resetCounter || 0, "github", "/daily-reset", "A new daily cave has opened.");
+  if (state.week !== week || !state.layout || !state.player) {
+    return freshState(
+      state,
+      date,
+      week,
+      (state.resetCounter || 0) + 1,
+      "github",
+      "/weekly-reset",
+      `A new weekly cave has opened for ${week}.`,
+      activeIssueNumber,
+      activeIssueUrl
+    );
   }
 
-  if (state.week !== week) {
-    state.week = week;
-    state.weeklyLeaderboard = {};
-  }
+  state.date = date;
+  state.activeIssueNumber = activeIssueNumber;
+  state.activeIssueUrl = activeIssueUrl;
 
   return state;
 }
 
-function freshState(previous, date, week, resetCounter, actor, command, message) {
+function issueUrl(issueNumber) {
+  return `https://github.com/the-sudipta/the-sudipta/issues/${issueNumber}`;
+}
+
+function freshState(previous, date, week, resetCounter, actor, command, message, activeIssueNumber, activeIssueUrl) {
   return {
     version: 1,
     date,
     week,
     resetCounter,
-    layout: createCave(date, resetCounter),
+    activeIssueNumber,
+    activeIssueUrl,
+    layout: createCave(week, resetCounter),
     player: defaultPlayer(),
     revealed: [START_ROOM],
     collected: [],
@@ -219,7 +239,7 @@ function freshState(previous, date, week, resetCounter, actor, command, message)
     ].slice(0, 8),
     latest: { actor, command, message },
     dailyLeaderboard: {},
-    weeklyLeaderboard: previous.week === week ? previous.weeklyLeaderboard || {} : {},
+    weeklyLeaderboard: {},
     allTimeLeaderboard: previous.allTimeLeaderboard || {},
     allTime: previous.allTime || { huntsWon: 0, artifacts: 0, moves: 0 },
   };
@@ -229,6 +249,7 @@ function readEventCommand() {
   const fallback = {
     actor: process.env.GITHUB_ACTOR || "github",
     command: process.env.WUMPUS_COMMAND || "/render",
+    issueNumber: null,
   };
   const eventPath = process.env.GITHUB_EVENT_PATH;
 
@@ -244,6 +265,7 @@ function readEventCommand() {
   return {
     actor,
     command: match ? match[0].trim().toLowerCase() : "/render",
+    issueNumber: event.issue?.number || null,
   };
 }
 
@@ -398,10 +420,8 @@ function shootArrow(state, actor, command) {
 
 function applyCommand(state, actor, command) {
   if (command.startsWith("/reset")) {
-    const date = todayDhaka();
-    const week = weekKey(date);
-    const resetCounter = (state.resetCounter || 0) + 1;
-    return freshState(state, date, week, resetCounter, actor, command, "A new cave was opened. Start from B2.");
+    record(state, actor, command, "This cave resets automatically every week. Keep playing in the active weekly issue.");
+    return state;
   }
 
   if (command.startsWith("/move")) movePlayer(state, actor, command);
@@ -715,16 +735,33 @@ function writeSvg(svg) {
   fs.writeFileSync(SVG_FILE, `${svg.replace(/[ \t]+$/gm, "")}\n`, "utf8");
 }
 
+function writeReadmeIssueLinks(state) {
+  if (!state.activeIssueUrl || !fs.existsSync(README_FILE)) return;
+  const readme = fs.readFileSync(README_FILE, "utf8");
+  const next = readme.replace(
+    /https:\/\/github\.com\/the-sudipta\/the-sudipta\/issues\/(?:new\?[^"]*|\d+)/g,
+    state.activeIssueUrl
+  );
+  if (next !== readme) fs.writeFileSync(README_FILE, next, "utf8");
+}
+
 function main() {
-  const { actor, command } = readEventCommand();
+  const { actor, command, issueNumber } = readEventCommand();
   let state = ensureState(loadState());
+  if (issueNumber && state.activeIssueNumber && Number(issueNumber) !== Number(state.activeIssueNumber)) {
+    writeReadmeIssueLinks(state);
+    writeSvg(renderSvg(state));
+    return;
+  }
   if (process.env.WUMPUS_RENDER_ONLY === "1") {
     writeSvg(renderSvg(state));
+    writeReadmeIssueLinks(state);
     return;
   }
   state = applyCommand(state, actor, command);
   saveState(state);
   writeSvg(renderSvg(state));
+  writeReadmeIssueLinks(state);
 }
 
 main();
