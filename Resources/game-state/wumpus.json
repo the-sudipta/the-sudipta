@@ -1,43 +1,54 @@
 {
   "version": 1,
-  "date": "2026-06-05",
-  "week": "2026-W23",
-  "resetCounter": 0,
-  "activeIssueNumber": 1,
-  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/1",
+  "date": "2026-06-08",
+  "week": "2026-W24",
+  "resetCounter": 1,
+  "activeIssueNumber": 2,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/2",
   "layout": {
     "size": 4,
-    "mission": "Stabilize the Security Core",
-    "wumpus": "A1",
+    "mission": "Trace the Blockchain Ledger",
+    "wumpus": "D2",
     "pits": [
-      "D1",
-      "D4"
+      "D4",
+      "B4"
     ],
     "bats": [
-      "C3"
+      "D1"
     ],
     "artifacts": {
-      "C1": "Algorithm Relic",
+      "A3": "Algorithm Relic",
       "A2": "Security Key",
-      "C4": "Blockchain Ledger",
-      "A3": "Bioinformatics Sample",
-      "C2": "Quantum Fragment"
+      "C2": "Blockchain Ledger",
+      "C3": "Bioinformatics Sample",
+      "B1": "Quantum Fragment"
     }
   },
   "player": {
-    "room": "B3",
+    "room": "B2",
     "arrows": 2,
     "status": "exploring",
     "score": 0,
     "artifacts": 0,
-    "moves": 1
+    "moves": 0
   },
   "revealed": [
-    "B2",
-    "B3"
+    "B2"
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-06-07T19:43:15.071Z"
+    },
+    {
+      "actor": "github",
+      "command": "/weekly-reset",
+      "message": "A new weekly cave has opened for 2026-W24.",
+      "at": "2026-06-07T19:43:15.071Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/move east",
@@ -77,15 +88,11 @@
   ],
   "latest": {
     "actor": "the-sudipta",
-    "command": "/move east",
-    "message": "Moved to B3. North: Bioinformatics Sample. South: Context Switch."
+    "command": "/render",
+    "message": "Rendered the current cave state."
   },
-  "dailyLeaderboard": {
-    "the-sudipta": 3
-  },
-  "weeklyLeaderboard": {
-    "the-sudipta": 3
-  },
+  "dailyLeaderboard": {},
+  "weeklyLeaderboard": {},
   "allTimeLeaderboard": {
     "the-sudipta": 3
   },
