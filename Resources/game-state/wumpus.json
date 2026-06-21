@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "date": "2026-06-15",
-  "week": "2026-W25",
-  "resetCounter": 2,
-  "activeIssueNumber": 3,
-  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/3",
+  "date": "2026-06-22",
+  "week": "2026-W26",
+  "resetCounter": 3,
+  "activeIssueNumber": 4,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/4",
   "layout": {
     "size": 4,
-    "mission": "Repair the System Blueprint",
-    "wumpus": "A1",
+    "mission": "Recover the Chemistry Formula",
+    "wumpus": "D2",
     "pits": [
-      "C1",
-      "C4"
+      "A1",
+      "B4"
     ],
     "bats": [
-      "A3"
+      "A4"
     ],
     "artifacts": {
-      "D1": "Algorithm Relic",
-      "B3": "Security Key",
-      "D2": "Blockchain Ledger",
-      "C2": "Bioinformatics Sample",
+      "D3": "Algorithm Relic",
+      "C2": "Security Key",
+      "C3": "Blockchain Ledger",
+      "C1": "Bioinformatics Sample",
       "B1": "Quantum Fragment"
     }
   },
@@ -37,6 +37,18 @@
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-06-21T19:56:55.037Z"
+    },
+    {
+      "actor": "github",
+      "command": "/weekly-reset",
+      "message": "A new weekly cave has opened for 2026-W26.",
+      "at": "2026-06-21T19:56:55.037Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/render",
@@ -72,18 +84,6 @@
       "command": "/sense",
       "message": "North: Security Key. South: Quantum Fragment.",
       "at": "2026-06-05T07:10:51.956Z"
-    },
-    {
-      "actor": "the-sudipta",
-      "command": "/help",
-      "message": "Commands: /move north, /move south, /move east, /move west, /sense, /grab, /shoot east, /reset.",
-      "at": "2026-06-05T07:03:44.068Z"
-    },
-    {
-      "actor": "github",
-      "command": "/render",
-      "message": "Rendered the current cave state.",
-      "at": "2026-06-05T06:55:00.421Z"
     }
   ],
   "latest": {
