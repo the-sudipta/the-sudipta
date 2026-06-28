@@ -253,16 +253,16 @@ The profile above is the story. The CV is the structured document.
 
 <div align="center">
 
-<a href="https://github.com/the-sudipta/the-sudipta/issues/4">
+<a href="https://github.com/the-sudipta/the-sudipta/issues/5">
   <img src="https://img.shields.io/badge/Enter-The%20Research%20Cave-22D3EE?style=for-the-badge&logo=github&logoColor=111827" alt="Enter the Research Cave"/>
 </a>
-<a href="https://github.com/the-sudipta/the-sudipta/issues/4">
+<a href="https://github.com/the-sudipta/the-sudipta/issues/5">
   <img src="https://img.shields.io/badge/Play-Through%20GitHub%20Issues-111827?style=for-the-badge&logo=githubactions&logoColor=white" alt="Play through GitHub Issues"/>
 </a>
 <a href="./WUMPUS_PROTOCOL_RULES.md">
   <img src="https://img.shields.io/badge/Read-The%20Rules-0F766E?style=for-the-badge&logo=readme&logoColor=white" alt="Read the Wumpus Protocol rules"/>
 </a>
-<a href="https://github.com/the-sudipta/the-sudipta/issues/4">
+<a href="https://github.com/the-sudipta/the-sudipta/issues/5">
   <img src="https://img.shields.io/badge/Commands-%2Fmove%20%7C%20%2Fsense%20%7C%20%2Fgrab%20%7C%20%2Fshoot-7C3AED?style=for-the-badge" alt="Wumpus commands"/>
 </a>
 
@@ -270,7 +270,7 @@ The profile above is the story. The CV is the structured document.
 
 <!-- WUMPUS-HUNTERS:START -->
 <p align="center">
-  <a href="https://github.com/the-sudipta/the-sudipta/issues/4"><img src="https://img.shields.io/badge/Weekly%20Hunters-Be%20first-64748B?style=for-the-badge&logo=github&logoColor=white" alt="Be the first weekly hunter"/></a>
+  <a href="https://github.com/the-sudipta/the-sudipta/issues/5"><img src="https://img.shields.io/badge/Weekly%20Hunters-Be%20first-64748B?style=for-the-badge&logo=github&logoColor=white" alt="Be the first weekly hunter"/></a>
 </p>
 <!-- WUMPUS-HUNTERS:END -->
 
