@@ -49,8 +49,8 @@
     </g><g>
       <text x="90" y="420" class="label">PHP</text>
       <rect x="310" y="398" width="790" height="32" rx="16" fill="#1E293B"/>
-      <rect x="310" y="398" width="59" height="32" rx="16" fill="#60A5FA"/>
-      <text x="1120" y="421" text-anchor="end" class="label">7%</text>
+      <rect x="310" y="398" width="50" height="32" rx="16" fill="#60A5FA"/>
+      <text x="1120" y="421" text-anchor="end" class="label">6%</text>
     </g><g>
       <text x="90" y="482" class="label">Jupyter Notebook</text>
       <rect x="310" y="460" width="790" height="32" rx="16" fill="#1E293B"/>
