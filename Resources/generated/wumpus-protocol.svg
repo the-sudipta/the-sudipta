@@ -32,7 +32,7 @@
   <text x="789" y="68" fill="#22d3ee" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="1.4">EXPLORING</text>
 
   <text x="56" y="142" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">Today's Cave: Stabilize the Security Core</text>
-  <text x="56" y="166" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="750">Room B2 - arrows 2 - artifacts 0 - score 0 - date 2026-07-06</text>
+  <text x="56" y="166" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="750">Room B2 - arrows 2 - artifacts 0 - score 0 - date 2026-07-13</text>
 
   <rect x="56" y="184" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
@@ -43,16 +43,8 @@
   <rect x="174" y="184" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
 
-  <g filter="url(#tinyGlow)">
-    <circle cx="227" cy="268" r="24" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".62"/>
-
-  <g transform="translate(227 268) scale(0.42)" filter="url(#tinyGlow)">
-    <path d="M0 -28 L24 -14 L24 14 L0 28 L-24 14 L-24 -14 Z" fill="#f59e0b" fill-opacity=".9"/><path d="M-12 1 H12 M-6 -9 L6 11" stroke="#020617" stroke-width="4" stroke-linecap="round"/>
-
-  </g>
-  </g>
   <text x="227" y="234" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
-  <text x="227" y="248" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">A2</text>
+  <text x="227" y="272" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">A2</text>
 
   <rect x="292" y="184" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
@@ -69,8 +61,16 @@
   <rect x="56" y="302" width="106" height="106" rx="18" fill="#111827" fill-opacity=".58" stroke="#111827" stroke-opacity=".82"/>
 
 
+  <g filter="url(#tinyGlow)">
+    <circle cx="109" cy="386" r="24" fill="#60a5fa" fill-opacity=".12" stroke="#60a5fa" stroke-opacity=".62"/>
+
+  <g transform="translate(109 386) scale(0.42)" filter="url(#tinyGlow)">
+    <circle cx="0" cy="0" r="6" fill="#60a5fa"/><ellipse cx="0" cy="0" rx="30" ry="10" stroke="#60a5fa" stroke-width="4"/><ellipse cx="0" cy="0" rx="30" ry="10" stroke="#60a5fa" stroke-width="4" transform="rotate(62)"/><ellipse cx="0" cy="0" rx="30" ry="10" stroke="#60a5fa" stroke-width="4" transform="rotate(-62)"/>
+
+  </g>
+  </g>
   <text x="109" y="352" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="900">?</text>
-  <text x="109" y="390" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">B1</text>
+  <text x="109" y="366" fill="#94a3b8" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">B1</text>
 
   <rect x="174" y="302" width="106" height="106" rx="18" fill="#22d3ee" fill-opacity=".28" stroke="#22d3ee" stroke-opacity=".82"/>
 
@@ -86,10 +86,10 @@
 
 
   <g filter="url(#tinyGlow)">
-    <circle cx="345" cy="386" r="24" fill="#8b5cf6" fill-opacity=".12" stroke="#8b5cf6" stroke-opacity=".62"/>
+    <circle cx="345" cy="386" r="24" fill="#10b981" fill-opacity=".12" stroke="#10b981" stroke-opacity=".62"/>
 
   <g transform="translate(345 386) scale(0.42)" filter="url(#tinyGlow)">
-    <path d="M-21 4 C-31 -6 -31 -18 -21 -25 C-12 -32 0 -26 6 -17" stroke="#8b5cf6" stroke-width="9" stroke-linecap="round"/><path d="M21 -4 C31 6 31 18 21 25 C12 32 0 26 -6 17" stroke="#8b5cf6" stroke-width="9" stroke-linecap="round"/><path d="M-8 9 L8 -9" stroke="#f8fafc" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-18 -24 C18 -12 -18 12 18 24 M18 -24 C-18 -12 18 12 -18 24" stroke="#10b981" stroke-width="5" stroke-linecap="round"/><path d="M-11 -13 H11 M-12 0 H12 M-11 13 H11" stroke="#d1fae5" stroke-width="3"/>
 
   </g>
   </g>
@@ -112,10 +112,10 @@
 
 
   <g filter="url(#tinyGlow)">
-    <circle cx="227" cy="504" r="24" fill="#10b981" fill-opacity=".12" stroke="#10b981" stroke-opacity=".62"/>
+    <circle cx="227" cy="504" r="24" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".62"/>
 
   <g transform="translate(227 504) scale(0.42)" filter="url(#tinyGlow)">
-    <path d="M-18 -24 C18 -12 -18 12 18 24 M18 -24 C-18 -12 18 12 -18 24" stroke="#10b981" stroke-width="5" stroke-linecap="round"/><path d="M-11 -13 H11 M-12 0 H12 M-11 13 H11" stroke="#d1fae5" stroke-width="3"/>
+    <path d="M0 -28 L24 -14 L24 14 L0 28 L-24 14 L-24 -14 Z" fill="#f59e0b" fill-opacity=".9"/><path d="M-12 1 H12 M-6 -9 L6 11" stroke="#020617" stroke-width="4" stroke-linecap="round"/>
 
   </g>
   </g>

@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "date": "2026-07-06",
-  "week": "2026-W28",
-  "resetCounter": 5,
-  "activeIssueNumber": 6,
-  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/6",
+  "date": "2026-07-13",
+  "week": "2026-W29",
+  "resetCounter": 6,
+  "activeIssueNumber": 7,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/7",
   "layout": {
     "size": 4,
     "mission": "Stabilize the Security Core",
-    "wumpus": "A4",
+    "wumpus": "D3",
     "pits": [
-      "A1",
-      "D3"
+      "C3",
+      "D4"
     ],
     "bats": [
-      "C3"
+      "C4"
     ],
     "artifacts": {
-      "A2": "Algorithm Relic",
-      "C1": "Security Key",
-      "B3": "Blockchain Ledger",
-      "C2": "Bioinformatics Sample",
-      "A3": "Quantum Fragment"
+      "C2": "Algorithm Relic",
+      "B4": "Security Key",
+      "C1": "Blockchain Ledger",
+      "B3": "Bioinformatics Sample",
+      "B1": "Quantum Fragment"
     }
   },
   "player": {
@@ -37,6 +37,18 @@
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-07-12T19:17:53.932Z"
+    },
+    {
+      "actor": "github",
+      "command": "/weekly-reset",
+      "message": "A new weekly cave has opened for 2026-W29.",
+      "at": "2026-07-12T19:17:53.932Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/render",
@@ -72,18 +84,6 @@
       "command": "/weekly-reset",
       "message": "A new weekly cave has opened for 2026-W26.",
       "at": "2026-06-21T19:56:55.037Z"
-    },
-    {
-      "actor": "the-sudipta",
-      "command": "/render",
-      "message": "Rendered the current cave state.",
-      "at": "2026-06-14T19:50:28.905Z"
-    },
-    {
-      "actor": "github",
-      "command": "/weekly-reset",
-      "message": "A new weekly cave has opened for 2026-W25.",
-      "at": "2026-06-14T19:50:28.905Z"
     }
   ],
   "latest": {
