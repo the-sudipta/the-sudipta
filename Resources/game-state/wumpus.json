@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "date": "2026-07-20",
-  "week": "2026-W30",
-  "resetCounter": 7,
-  "activeIssueNumber": 8,
-  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/8",
+  "date": "2026-07-27",
+  "week": "2026-W31",
+  "resetCounter": 8,
+  "activeIssueNumber": 9,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/9",
   "layout": {
     "size": 4,
-    "mission": "Repair the System Blueprint",
-    "wumpus": "A1",
+    "mission": "Recover the Chemistry Formula",
+    "wumpus": "B4",
     "pits": [
-      "D1",
+      "C3",
       "D2"
     ],
     "bats": [
-      "C1"
+      "D1"
     ],
     "artifacts": {
-      "B4": "Algorithm Relic",
-      "B1": "Security Key",
-      "C4": "Blockchain Ledger",
-      "A2": "Bioinformatics Sample",
-      "B3": "Quantum Fragment"
+      "B1": "Algorithm Relic",
+      "A4": "Security Key",
+      "C2": "Blockchain Ledger",
+      "D3": "Bioinformatics Sample",
+      "A2": "Quantum Fragment"
     }
   },
   "player": {
@@ -37,6 +37,18 @@
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-07-26T19:23:59.127Z"
+    },
+    {
+      "actor": "github",
+      "command": "/weekly-reset",
+      "message": "A new weekly cave has opened for 2026-W31.",
+      "at": "2026-07-26T19:23:59.127Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/render",
@@ -72,18 +84,6 @@
       "command": "/weekly-reset",
       "message": "A new weekly cave has opened for 2026-W28.",
       "at": "2026-07-05T19:38:21.141Z"
-    },
-    {
-      "actor": "the-sudipta",
-      "command": "/render",
-      "message": "Rendered the current cave state.",
-      "at": "2026-06-28T19:41:44.500Z"
-    },
-    {
-      "actor": "github",
-      "command": "/weekly-reset",
-      "message": "A new weekly cave has opened for 2026-W27.",
-      "at": "2026-06-28T19:41:44.500Z"
     }
   ],
   "latest": {
