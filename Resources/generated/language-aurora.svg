@@ -29,8 +29,8 @@
   <g>
       <text x="90" y="172" class="label">TypeScript</text>
       <rect x="310" y="150" width="790" height="32" rx="16" fill="#1E293B"/>
-      <rect x="310" y="150" width="420" height="32" rx="16" fill="#22D3EE"/>
-      <text x="1120" y="173" text-anchor="end" class="label">50%</text>
+      <rect x="310" y="150" width="412" height="32" rx="16" fill="#22D3EE"/>
+      <text x="1120" y="173" text-anchor="end" class="label">49%</text>
     </g><g>
       <text x="90" y="234" class="label">HTML</text>
       <rect x="310" y="212" width="790" height="32" rx="16" fill="#1E293B"/>
