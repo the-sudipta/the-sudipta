@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "date": "2026-07-27",
-  "week": "2026-W31",
-  "resetCounter": 8,
-  "activeIssueNumber": 9,
-  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/9",
+  "date": "2026-08-03",
+  "week": "2026-W32",
+  "resetCounter": 9,
+  "activeIssueNumber": 10,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/10",
   "layout": {
     "size": 4,
-    "mission": "Recover the Chemistry Formula",
-    "wumpus": "B4",
+    "mission": "Scan the Bioinformatics Wing",
+    "wumpus": "C1",
     "pits": [
-      "C3",
-      "D2"
+      "A3",
+      "C3"
     ],
     "bats": [
-      "D1"
+      "B4"
     ],
     "artifacts": {
-      "B1": "Algorithm Relic",
-      "A4": "Security Key",
-      "C2": "Blockchain Ledger",
+      "D2": "Algorithm Relic",
+      "C4": "Security Key",
+      "A1": "Blockchain Ledger",
       "D3": "Bioinformatics Sample",
-      "A2": "Quantum Fragment"
+      "B1": "Quantum Fragment"
     }
   },
   "player": {
@@ -37,6 +37,18 @@
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-08-02T19:22:52.237Z"
+    },
+    {
+      "actor": "github",
+      "command": "/weekly-reset",
+      "message": "A new weekly cave has opened for 2026-W32.",
+      "at": "2026-08-02T19:22:52.237Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/render",
@@ -72,18 +84,6 @@
       "command": "/weekly-reset",
       "message": "A new weekly cave has opened for 2026-W29.",
       "at": "2026-07-12T19:17:53.932Z"
-    },
-    {
-      "actor": "the-sudipta",
-      "command": "/render",
-      "message": "Rendered the current cave state.",
-      "at": "2026-07-05T19:38:21.141Z"
-    },
-    {
-      "actor": "github",
-      "command": "/weekly-reset",
-      "message": "A new weekly cave has opened for 2026-W28.",
-      "at": "2026-07-05T19:38:21.141Z"
     }
   ],
   "latest": {
