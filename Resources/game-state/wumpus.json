@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "date": "2026-08-03",
-  "week": "2026-W32",
-  "resetCounter": 9,
-  "activeIssueNumber": 10,
-  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/10",
+  "date": "2026-08-10",
+  "week": "2026-W33",
+  "resetCounter": 10,
+  "activeIssueNumber": 11,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/11",
   "layout": {
     "size": 4,
-    "mission": "Scan the Bioinformatics Wing",
-    "wumpus": "C1",
+    "mission": "Trace the Blockchain Ledger",
+    "wumpus": "A1",
     "pits": [
-      "A3",
-      "C3"
+      "D1",
+      "D2"
     ],
     "bats": [
-      "B4"
+      "C4"
     ],
     "artifacts": {
-      "D2": "Algorithm Relic",
-      "C4": "Security Key",
-      "A1": "Blockchain Ledger",
-      "D3": "Bioinformatics Sample",
-      "B1": "Quantum Fragment"
+      "C2": "Algorithm Relic",
+      "B3": "Security Key",
+      "A3": "Blockchain Ledger",
+      "C1": "Bioinformatics Sample",
+      "C3": "Quantum Fragment"
     }
   },
   "player": {
@@ -37,6 +37,18 @@
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-08-09T18:53:28.269Z"
+    },
+    {
+      "actor": "github",
+      "command": "/weekly-reset",
+      "message": "A new weekly cave has opened for 2026-W33.",
+      "at": "2026-08-09T18:53:28.269Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/render",
@@ -72,18 +84,6 @@
       "command": "/weekly-reset",
       "message": "A new weekly cave has opened for 2026-W30.",
       "at": "2026-07-19T19:18:30.281Z"
-    },
-    {
-      "actor": "the-sudipta",
-      "command": "/render",
-      "message": "Rendered the current cave state.",
-      "at": "2026-07-12T19:17:53.932Z"
-    },
-    {
-      "actor": "github",
-      "command": "/weekly-reset",
-      "message": "A new weekly cave has opened for 2026-W29.",
-      "at": "2026-07-12T19:17:53.932Z"
     }
   ],
   "latest": {
