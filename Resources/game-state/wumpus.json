@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "date": "2026-08-31",
-  "week": "2026-W36",
-  "resetCounter": 13,
-  "activeIssueNumber": 14,
-  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/14",
+  "date": "2026-09-07",
+  "week": "2026-W37",
+  "resetCounter": 14,
+  "activeIssueNumber": 15,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/15",
   "layout": {
     "size": 4,
-    "mission": "Map the Quantum Chamber",
-    "wumpus": "A4",
+    "mission": "Stabilize the Security Core",
+    "wumpus": "A3",
     "pits": [
-      "D3",
-      "B4"
-    ],
-    "bats": [
+      "D1",
       "C4"
     ],
+    "bats": [
+      "C3"
+    ],
     "artifacts": {
-      "D1": "Algorithm Relic",
-      "A2": "Security Key",
-      "B3": "Blockchain Ledger",
-      "A3": "Bioinformatics Sample",
-      "C3": "Quantum Fragment"
+      "B1": "Algorithm Relic",
+      "D2": "Security Key",
+      "A1": "Blockchain Ledger",
+      "A4": "Bioinformatics Sample",
+      "B4": "Quantum Fragment"
     }
   },
   "player": {
@@ -37,6 +37,18 @@
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-09-06T20:19:50.498Z"
+    },
+    {
+      "actor": "github",
+      "command": "/weekly-reset",
+      "message": "A new weekly cave has opened for 2026-W37.",
+      "at": "2026-09-06T20:19:50.498Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/render",
@@ -72,18 +84,6 @@
       "command": "/weekly-reset",
       "message": "A new weekly cave has opened for 2026-W34.",
       "at": "2026-08-16T18:40:25.440Z"
-    },
-    {
-      "actor": "the-sudipta",
-      "command": "/render",
-      "message": "Rendered the current cave state.",
-      "at": "2026-08-09T18:53:28.269Z"
-    },
-    {
-      "actor": "github",
-      "command": "/weekly-reset",
-      "message": "A new weekly cave has opened for 2026-W33.",
-      "at": "2026-08-09T18:53:28.269Z"
     }
   ],
   "latest": {
