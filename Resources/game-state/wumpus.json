@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "date": "2026-09-21",
-  "week": "2026-W39",
-  "resetCounter": 16,
-  "activeIssueNumber": 17,
-  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/17",
+  "date": "2026-09-28",
+  "week": "2026-W40",
+  "resetCounter": 17,
+  "activeIssueNumber": 18,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/18",
   "layout": {
     "size": 4,
     "mission": "Decode the Algorithm Gate",
     "wumpus": "D4",
     "pits": [
-      "D3",
-      "C4"
+      "C3",
+      "D1"
     ],
     "bats": [
-      "A1"
+      "C1"
     ],
     "artifacts": {
-      "A3": "Algorithm Relic",
-      "A2": "Security Key",
-      "C3": "Blockchain Ledger",
-      "B1": "Bioinformatics Sample",
-      "B3": "Quantum Fragment"
+      "A1": "Algorithm Relic",
+      "D3": "Security Key",
+      "B3": "Blockchain Ledger",
+      "A2": "Bioinformatics Sample",
+      "B1": "Quantum Fragment"
     }
   },
   "player": {
@@ -37,6 +37,18 @@
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-09-27T21:15:46.483Z"
+    },
+    {
+      "actor": "github",
+      "command": "/weekly-reset",
+      "message": "A new weekly cave has opened for 2026-W40.",
+      "at": "2026-09-27T21:15:46.482Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/render",
@@ -72,18 +84,6 @@
       "command": "/weekly-reset",
       "message": "A new weekly cave has opened for 2026-W37.",
       "at": "2026-09-06T20:19:50.498Z"
-    },
-    {
-      "actor": "the-sudipta",
-      "command": "/render",
-      "message": "Rendered the current cave state.",
-      "at": "2026-08-30T20:57:12.697Z"
-    },
-    {
-      "actor": "github",
-      "command": "/weekly-reset",
-      "message": "A new weekly cave has opened for 2026-W36.",
-      "at": "2026-08-30T20:57:12.697Z"
     }
   ],
   "latest": {
