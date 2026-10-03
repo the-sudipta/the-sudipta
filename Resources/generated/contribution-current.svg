@@ -29,27 +29,27 @@
   <g opacity=".45">
       <path d="M70 405H1130M70 322H1130M70 239H1130M70 156H1130" stroke="#334155"/>
     </g>
-    <rect x="92" y="399.4" width="30" height="5.6" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="107" y="440" text-anchor="middle" class="micro">2</text><rect x="144" y="343.9" width="30" height="61.1" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="159" y="440" text-anchor="middle" class="micro">22</text><rect x="196" y="296.7" width="30" height="108.3" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="211" y="440" text-anchor="middle" class="micro">39</text><rect x="248" y="388.3" width="30" height="16.7" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="263" y="440" text-anchor="middle" class="micro">6</text><rect x="300" y="385.6" width="30" height="19.4" rx="8" fill="#22D3EE" opacity=".72"/>
+    <rect x="92" y="400.4" width="30" height="4.6" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="107" y="440" text-anchor="middle" class="micro">2</text><rect x="144" y="354.5" width="30" height="50.5" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="159" y="440" text-anchor="middle" class="micro">22</text><rect x="196" y="315.6" width="30" height="89.4" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="211" y="440" text-anchor="middle" class="micro">39</text><rect x="248" y="391.2" width="30" height="13.8" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="263" y="440" text-anchor="middle" class="micro">6</text><rect x="300" y="388.9" width="30" height="16.1" rx="8" fill="#22D3EE" opacity=".72"/>
     <text x="315" y="440" text-anchor="middle" class="micro">7</text><rect x="352" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="367" y="440" text-anchor="middle" class="micro">0</text><rect x="404" y="355.0" width="30" height="50.0" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="419" y="440" text-anchor="middle" class="micro">18</text><rect x="456" y="368.9" width="30" height="36.1" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="471" y="440" text-anchor="middle" class="micro">13</text><rect x="508" y="360.6" width="30" height="44.4" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="523" y="440" text-anchor="middle" class="micro">16</text><rect x="560" y="374.4" width="30" height="30.6" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="575" y="440" text-anchor="middle" class="micro">11</text><rect x="612" y="382.8" width="30" height="22.2" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="627" y="440" text-anchor="middle" class="micro">8</text><rect x="664" y="380.0" width="30" height="25.0" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="679" y="440" text-anchor="middle" class="micro">9</text><rect x="716" y="382.8" width="30" height="22.2" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="731" y="440" text-anchor="middle" class="micro">8</text><rect x="768" y="402.2" width="30" height="2.8" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="783" y="440" text-anchor="middle" class="micro">1</text><rect x="820" y="402.2" width="30" height="2.8" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="367" y="440" text-anchor="middle" class="micro">0</text><rect x="404" y="363.7" width="30" height="41.3" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="419" y="440" text-anchor="middle" class="micro">18</text><rect x="456" y="375.2" width="30" height="29.8" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="471" y="440" text-anchor="middle" class="micro">13</text><rect x="508" y="368.3" width="30" height="36.7" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="523" y="440" text-anchor="middle" class="micro">16</text><rect x="560" y="379.8" width="30" height="25.2" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="575" y="440" text-anchor="middle" class="micro">11</text><rect x="612" y="386.7" width="30" height="18.3" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="627" y="440" text-anchor="middle" class="micro">8</text><rect x="664" y="384.4" width="30" height="20.6" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="679" y="440" text-anchor="middle" class="micro">9</text><rect x="716" y="386.7" width="30" height="18.3" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="731" y="440" text-anchor="middle" class="micro">8</text><rect x="768" y="402.7" width="30" height="2.3" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="783" y="440" text-anchor="middle" class="micro">1</text><rect x="820" y="402.7" width="30" height="2.3" rx="8" fill="#22D3EE" opacity=".72"/>
     <text x="835" y="440" text-anchor="middle" class="micro">1</text><rect x="872" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="887" y="440" text-anchor="middle" class="micro">0</text><rect x="924" y="380.0" width="30" height="25.0" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="939" y="440" text-anchor="middle" class="micro">9</text><rect x="976" y="380.0" width="30" height="25.0" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="991" y="440" text-anchor="middle" class="micro">9</text><rect x="1028" y="385.6" width="30" height="19.4" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="887" y="440" text-anchor="middle" class="micro">0</text><rect x="924" y="384.4" width="30" height="20.6" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="939" y="440" text-anchor="middle" class="micro">9</text><rect x="976" y="384.4" width="30" height="20.6" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="991" y="440" text-anchor="middle" class="micro">9</text><rect x="1028" y="388.9" width="30" height="16.1" rx="8" fill="#22D3EE" opacity=".72"/>
     <text x="1043" y="440" text-anchor="middle" class="micro">7</text><rect x="1080" y="155.0" width="30" height="250.0" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="1095" y="440" text-anchor="middle" class="micro">90</text>
+    <text x="1095" y="440" text-anchor="middle" class="micro">109</text>
     <text x="90" y="478" class="small">Numbers below each bar are weekly contribution totals.</text>
   <text x="70" y="508" class="micro">AUTO-GENERATED BY WORKFLOW - UPDATED 2026-10-03</text>
 </svg>
