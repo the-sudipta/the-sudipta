@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "date": "2026-09-28",
-  "week": "2026-W40",
-  "resetCounter": 17,
-  "activeIssueNumber": 18,
-  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/18",
+  "date": "2026-10-05",
+  "week": "2026-W41",
+  "resetCounter": 18,
+  "activeIssueNumber": 19,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/19",
   "layout": {
     "size": 4,
-    "mission": "Decode the Algorithm Gate",
-    "wumpus": "D4",
+    "mission": "Stabilize the Security Core",
+    "wumpus": "D3",
     "pits": [
-      "C3",
-      "D1"
+      "A4",
+      "C4"
     ],
     "bats": [
       "C1"
     ],
     "artifacts": {
-      "A1": "Algorithm Relic",
-      "D3": "Security Key",
-      "B3": "Blockchain Ledger",
-      "A2": "Bioinformatics Sample",
-      "B1": "Quantum Fragment"
+      "D4": "Algorithm Relic",
+      "A3": "Security Key",
+      "A2": "Blockchain Ledger",
+      "D1": "Bioinformatics Sample",
+      "C2": "Quantum Fragment"
     }
   },
   "player": {
@@ -37,6 +37,18 @@
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-10-04T21:14:27.854Z"
+    },
+    {
+      "actor": "github",
+      "command": "/weekly-reset",
+      "message": "A new weekly cave has opened for 2026-W41.",
+      "at": "2026-10-04T21:14:27.854Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/render",
@@ -72,18 +84,6 @@
       "command": "/weekly-reset",
       "message": "A new weekly cave has opened for 2026-W38.",
       "at": "2026-09-13T20:40:57.339Z"
-    },
-    {
-      "actor": "the-sudipta",
-      "command": "/render",
-      "message": "Rendered the current cave state.",
-      "at": "2026-09-06T20:19:50.498Z"
-    },
-    {
-      "actor": "github",
-      "command": "/weekly-reset",
-      "message": "A new weekly cave has opened for 2026-W37.",
-      "at": "2026-09-06T20:19:50.498Z"
     }
   ],
   "latest": {
