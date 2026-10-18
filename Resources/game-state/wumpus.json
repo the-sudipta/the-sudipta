@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "date": "2026-10-12",
-  "week": "2026-W42",
-  "resetCounter": 19,
-  "activeIssueNumber": 20,
-  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/20",
+  "date": "2026-10-19",
+  "week": "2026-W43",
+  "resetCounter": 20,
+  "activeIssueNumber": 21,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/21",
   "layout": {
     "size": 4,
-    "mission": "Trace the Blockchain Ledger",
-    "wumpus": "C4",
+    "mission": "Scan the Bioinformatics Wing",
+    "wumpus": "A3",
     "pits": [
-      "C3",
-      "A4"
+      "D2",
+      "C1"
     ],
     "bats": [
-      "A3"
+      "A4"
     ],
     "artifacts": {
-      "D1": "Algorithm Relic",
-      "D4": "Security Key",
+      "B3": "Algorithm Relic",
+      "A1": "Security Key",
       "B1": "Blockchain Ledger",
-      "D3": "Bioinformatics Sample",
-      "B4": "Quantum Fragment"
+      "C4": "Bioinformatics Sample",
+      "C2": "Quantum Fragment"
     }
   },
   "player": {
@@ -37,6 +37,18 @@
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-10-18T20:30:24.643Z"
+    },
+    {
+      "actor": "github",
+      "command": "/weekly-reset",
+      "message": "A new weekly cave has opened for 2026-W43.",
+      "at": "2026-10-18T20:30:24.642Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/render",
@@ -72,18 +84,6 @@
       "command": "/weekly-reset",
       "message": "A new weekly cave has opened for 2026-W40.",
       "at": "2026-09-27T21:15:46.482Z"
-    },
-    {
-      "actor": "the-sudipta",
-      "command": "/render",
-      "message": "Rendered the current cave state.",
-      "at": "2026-09-20T20:43:02.902Z"
-    },
-    {
-      "actor": "github",
-      "command": "/weekly-reset",
-      "message": "A new weekly cave has opened for 2026-W39.",
-      "at": "2026-09-20T20:43:02.902Z"
     }
   ],
   "latest": {
