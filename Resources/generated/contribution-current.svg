@@ -29,27 +29,27 @@
   <g opacity=".45">
       <path d="M70 405H1130M70 322H1130M70 239H1130M70 156H1130" stroke="#334155"/>
     </g>
-    <rect x="92" y="368.1" width="30" height="36.9" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="107" y="440" text-anchor="middle" class="micro">27</text><rect x="144" y="391.3" width="30" height="13.7" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="159" y="440" text-anchor="middle" class="micro">10</text><rect x="196" y="400.9" width="30" height="4.1" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="211" y="440" text-anchor="middle" class="micro">3</text><rect x="248" y="396.8" width="30" height="8.2" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="263" y="440" text-anchor="middle" class="micro">6</text><rect x="300" y="387.2" width="30" height="17.8" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="315" y="440" text-anchor="middle" class="micro">13</text><rect x="352" y="377.7" width="30" height="27.3" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="367" y="440" text-anchor="middle" class="micro">20</text><rect x="404" y="385.9" width="30" height="19.1" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="419" y="440" text-anchor="middle" class="micro">14</text><rect x="456" y="387.2" width="30" height="17.8" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="471" y="440" text-anchor="middle" class="micro">13</text><rect x="508" y="395.4" width="30" height="9.6" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="523" y="440" text-anchor="middle" class="micro">7</text><rect x="560" y="402.3" width="30" height="2.7" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="575" y="440" text-anchor="middle" class="micro">2</text><rect x="612" y="394.1" width="30" height="10.9" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="627" y="440" text-anchor="middle" class="micro">8</text><rect x="664" y="402.3" width="30" height="2.7" rx="8" fill="#22D3EE" opacity=".72"/>
+    <rect x="92" y="370.9" width="30" height="34.1" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="107" y="440" text-anchor="middle" class="micro">27</text><rect x="144" y="392.4" width="30" height="12.6" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="159" y="440" text-anchor="middle" class="micro">10</text><rect x="196" y="401.2" width="30" height="3.8" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="211" y="440" text-anchor="middle" class="micro">3</text><rect x="248" y="397.4" width="30" height="7.6" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="263" y="440" text-anchor="middle" class="micro">6</text><rect x="300" y="374.7" width="30" height="30.3" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="315" y="440" text-anchor="middle" class="micro">24</text><rect x="352" y="392.4" width="30" height="12.6" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="367" y="440" text-anchor="middle" class="micro">10</text><rect x="404" y="388.6" width="30" height="16.4" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="419" y="440" text-anchor="middle" class="micro">13</text><rect x="456" y="388.6" width="30" height="16.4" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="471" y="440" text-anchor="middle" class="micro">13</text><rect x="508" y="393.6" width="30" height="11.4" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="523" y="440" text-anchor="middle" class="micro">9</text><rect x="560" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="575" y="440" text-anchor="middle" class="micro">0</text><rect x="612" y="394.9" width="30" height="10.1" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="627" y="440" text-anchor="middle" class="micro">8</text><rect x="664" y="402.5" width="30" height="2.5" rx="8" fill="#22D3EE" opacity=".72"/>
     <text x="679" y="440" text-anchor="middle" class="micro">2</text><rect x="716" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="731" y="440" text-anchor="middle" class="micro">0</text><rect x="768" y="398.2" width="30" height="6.8" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="783" y="440" text-anchor="middle" class="micro">5</text><rect x="820" y="392.7" width="30" height="12.3" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="835" y="440" text-anchor="middle" class="micro">9</text><rect x="872" y="395.4" width="30" height="9.6" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="887" y="440" text-anchor="middle" class="micro">7</text><rect x="924" y="399.5" width="30" height="5.5" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="939" y="440" text-anchor="middle" class="micro">4</text><rect x="976" y="155.0" width="30" height="250.0" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="991" y="440" text-anchor="middle" class="micro">183</text><rect x="1028" y="220.6" width="30" height="184.4" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="1043" y="440" text-anchor="middle" class="micro">135</text><rect x="1080" y="385.9" width="30" height="19.1" rx="8" fill="#22D3EE" opacity=".72"/>
-    <text x="1095" y="440" text-anchor="middle" class="micro">14</text>
+    <text x="731" y="440" text-anchor="middle" class="micro">0</text><rect x="768" y="393.6" width="30" height="11.4" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="783" y="440" text-anchor="middle" class="micro">9</text><rect x="820" y="398.7" width="30" height="6.3" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="835" y="440" text-anchor="middle" class="micro">5</text><rect x="872" y="391.1" width="30" height="13.9" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="887" y="440" text-anchor="middle" class="micro">11</text><rect x="924" y="403.0" width="30" height="2.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="939" y="440" text-anchor="middle" class="micro">0</text><rect x="976" y="155.0" width="30" height="250.0" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="991" y="440" text-anchor="middle" class="micro">198</text><rect x="1028" y="249.7" width="30" height="155.3" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="1043" y="440" text-anchor="middle" class="micro">123</text><rect x="1080" y="391.1" width="30" height="13.9" rx="8" fill="#22D3EE" opacity=".72"/>
+    <text x="1095" y="440" text-anchor="middle" class="micro">11</text>
     <text x="90" y="478" class="small">Numbers below each bar are weekly contribution totals.</text>
-  <text x="70" y="508" class="micro">AUTO-GENERATED BY WORKFLOW - UPDATED 2026-10-21</text>
+  <text x="70" y="508" class="micro">AUTO-GENERATED BY WORKFLOW - UPDATED 2026-10-22</text>
 </svg>
