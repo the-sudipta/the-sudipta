@@ -1,9 +1,9 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:020617,35:0f766e,70:2563eb,100:7c3aed&text=Sudipta%20Kumar%20Das&fontColor=ffffff&fontSize=56&animation=fadeIn&fontAlignY=37&desc=CS%20Instructor%20%E2%80%A2%20Researcher%20%E2%80%A2%20Software%20Engineer&descSize=18&descAlignY=58" alt="Sudipta Kumar Das"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:020617,35:0f766e,70:2563eb,100:7c3aed&text=Sudipta%20Kumar%20Das&fontColor=ffffff&fontSize=56&animation=fadeIn&fontAlignY=37&desc=CSE%20Instructor%20%E2%80%A2%20Builds%20Software%20Tools%20with%20AI&descSize=18&descAlignY=58" alt="Sudipta Kumar Das"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&duration=2600&pause=700&color=67E8F9&center=true&vCenter=true&width=920&lines=Teaching%2C+Research+Implementation%2C+Backend+Engineering;Security+%E2%80%A2+blockchain+%E2%80%A2+algorithms+%E2%80%A2+bioinformatics;Quantum+computing+%E2%80%A2+computational+chemistry+%E2%80%A2+systems;Open+to+Lecturer+and+Software+roles" alt="Typing introduction"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&duration=2600&pause=700&color=67E8F9&center=true&vCenter=true&width=920&lines=Teaching+Programming%2C+Intro+to+CS+and+Data+Structures;Building+practical+tools+with+AI+coding+agents;Open+to+Lecturer+(CSE)+roles+anywhere+in+Bangladesh" alt="Typing introduction"/>
 </a>
 
 <p>
@@ -17,8 +17,8 @@
 <p>
   <img src="https://komarev.com/ghpvc/?username=the-sudipta&label=Visitors&color=22d3ee&style=flat-square" alt="Visitors"/>
   <img src="https://img.shields.io/badge/Based%20in-Dhaka%2C%20Bangladesh-0f766e?style=flat-square" alt="Dhaka Bangladesh"/>
-  <img src="https://img.shields.io/badge/Current-CS%20Instructor-f59e0b?style=flat-square" alt="CS Instructor"/>
-  <img src="https://img.shields.io/badge/Open%20to-PhD%20%7C%20Research%20%7C%20Software-8b5cf6?style=flat-square" alt="Open to roles research PhD"/>
+  <img src="https://img.shields.io/badge/Current-CSE%20Instructor%20%40%20AIUB-f59e0b?style=flat-square" alt="CSE Instructor at AIUB"/>
+  <img src="https://img.shields.io/badge/Open%20to-Lecturer%20%7C%20Instructor%20%7C%20AI%20tool%20building-8b5cf6?style=flat-square" alt="Open to Lecturer, Instructor and AI tool-building roles"/>
 </p>
 
 </div>
@@ -26,28 +26,24 @@
 <br/>
 
 <p align="center">
-  <img width="100%" src="./Resources/profile-signal.svg" alt="Research signal banner"/>
+  <img width="100%" src="./Resources/profile-signal.svg" alt="Teach. Build with AI. Ship."/>
 </p>
 
 ## Hello, I am Sudipta
 
-I am a computer science instructor from Bangladesh and a software engineer, shaped by three quiet obsessions: building reliable software, explaining hard ideas simply, and asking research questions that can become useful systems.
+I teach Computer Science and Engineering at American International University-Bangladesh (AIUB), mainly first-year courses: C++ programming and data structures. I like making the first year of CSE feel clear and doable.
 
-My GitHub is not meant to be a PDF in disguise. It is the public lab notebook of someone who wants to grow into a rare kind of engineer: practical enough for production, rigorous enough for research, and patient enough to teach.
+I also build practical software tools with AI coding agents such as Claude Code. I decide what the tool must do, write clear instructions, review and test what the agent produces, and ship it. Recent examples: extracting assessment marks from 367 evaluation PDFs into Excel for my department, and a personal job-search automation tool (private repo).
 
 <table>
   <tr>
-    <td width="33%" align="center">
-      <h3>Educator</h3>
-      <p>CS instructor, mentor, and technical communicator who enjoys making complex architecture feel understandable.</p>
+    <td width="50%" align="center">
+      <h3>Teacher</h3>
+      <p>Introduction to Programming (C++), Introduction to Computer Science, Data Structures. Lab tasks, problem sheets, and exam and viva question banks.</p>
     </td>
-    <td width="33%" align="center">
-      <h3>Researcher</h3>
-      <p>Image encryption, blockchain research, algorithms, bioinformatics, quantum computing, and computational chemistry.</p>
-    </td>
-    <td width="33%" align="center">
-      <h3>Builder</h3>
-      <p>Tool builder, Full-stack systems, backend services, database-backed products, analytics, and clean implementation habits.</p>
+    <td width="50%" align="center">
+      <h3>Tool builder</h3>
+      <p>Small, useful tools built with AI coding agents: clear specs, careful review, tests, and plain documentation.</p>
     </td>
   </tr>
 </table>
@@ -59,19 +55,13 @@ My GitHub is not meant to be a PDF in disguise. It is the public lab notebook of
     <td width="50%" valign="top">
       <h3>Now</h3>
       <p>
-        Instructor, CS at <b>American International University-Bangladesh</b>, while continuing graduate study and research-facing engineering work.
-      </p>
-      <p>
-        I am especially interested in teams and labs where software is not just code, but a vehicle for trust, security, scientific discovery, and measurable impact.
+        Contractual Academic Instructor, Dept. of CSE, <b>American International University-Bangladesh</b> (Oct 2025 - present), while finishing an MSc in Computer Science (expected Jan 2027).
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>Looking For</h3>
       <p>
-        Lecturer roles or Software engineering roles, backend (PHP) opportunities, research assistantship conversations, and funded PhD opportunities in computer science.
-      </p>
-      <p>
-        Best fit: supervisors and teams who value curiosity, discipline, documentation, research taste, and the ability to turn abstract ideas into working systems.
+        Lecturer (CSE) positions anywhere in Bangladesh, and roles where I build internal tools with AI coding agents.
       </p>
     </td>
   </tr>
@@ -106,40 +96,24 @@ My GitHub is not meant to be a PDF in disguise. It is the public lab notebook of
 </p> -->
 
 <p align="center">
-  <img width="100%" src="./Resources/generated/research-engineering-map.svg" alt="Auto-generated research publication spotlight"/>
+  <img width="100%" src="./Resources/generated/research-engineering-map.svg" alt="Research: one arXiv preprint"/>
 </p>
 
-## Research Signal
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Direction-Blockchain-111827?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Blockchain research"/>
-  <img src="https://img.shields.io/badge/Direction-Algorithms-2563eb?style=for-the-badge" alt="Algorithms"/>
-  <img src="https://img.shields.io/badge/Direction-Bioinformatics-10b981?style=for-the-badge" alt="Bioinformatics"/>
-  <img src="https://img.shields.io/badge/Direction-Quantum-7c3aed?style=for-the-badge" alt="Quantum computing"/>
-  <img src="https://img.shields.io/badge/Direction-Chemistry-f59e0b?style=for-the-badge" alt="Computational chemistry"/>
-</p>
+## Research
 
 <table>
   <tr>
     <td width="70%" valign="top">
-      <h3>Enhancing Image Encryption with Quadrant-Based Layered Multi-Key Systems</h3>
+      <h3>ML-MAWS: Alignment-Free Maximum Likelihood Phylogeny Estimation Using Minimal Absent Words</h3>
       <p>
-        A published research thread focused on secure image transformation and layered multi-key encryption design.
-        This is the kind of work I want to deepen: security-aware, mathematically thoughtful, and implementation-friendly.
-      </p>
-      <p>
-        <b>Authors:</b> Abu Juha Ahmed Muid, Sudipta Kumar Das, MD Sydur Rahman, Dr. Md. Mahbubur Rahman<br/>
-        <b>Venue:</b> International Journal of Mathematics and Computer Research, Dec 2024
+        <b>Authors:</b> Papri Saha, Sudipta Kumar Das, Anonnya Sarkar, Md. Manzurul Hasan<br/>
+        <b>Status:</b> arXiv preprint (q-bio.PE), 2026
       </p>
     </td>
     <td width="30%" align="center" valign="middle">
-      <a href="https://doi.org/10.47191/ijmcr/v12i12.02">
-        <img src="https://img.shields.io/badge/DOI-10.47191%2Fijmcr%2Fv12i12.02-2563eb?style=for-the-badge" alt="Publication DOI"/>
+      <a href="https://arxiv.org/abs/2606.25584">
+        <img src="https://img.shields.io/badge/arXiv-2606.25584-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv 2606.25584"/>
       </a>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Research-Image%20Encryption-7c3aed?style=for-the-badge" alt="Image encryption"/>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Published%20Area-Image%20Encryption-0f766e?style=for-the-badge" alt="Published area image encryption"/>
     </td>
   </tr>
 </table>
@@ -157,11 +131,11 @@ My GitHub is not meant to be a PDF in disguise. It is the public lab notebook of
   <tr>
     <td width="25%" align="center">
       <h3>AIUB</h3>
-      <p><b>MSCS</b><br/>Ongoing</p>
+      <p><b>MSc in Computer Science</b><br/>Expected Jan 2027</p>
     </td>
     <td width="25%" align="center">
       <h3>Jahangirnagar University</h3>
-      <p><b>MSCS under PMSCS</b><br/>Approx. CGPA 3.944/4.00</p>
+      <p><b>MSc in Computer Science (PMSCS)</b><br/>CGPA 3.94/4.00</p>
     </td>
     <td width="25%" align="center">
       <h3>AIUB</h3>
@@ -180,46 +154,36 @@ My GitHub is not meant to be a PDF in disguise. It is the public lab notebook of
 <div align="center">
 <table>
   <tr>
-    <td width="25%" align="center">
+    <td width="33%" align="center">
       <h3>AIUB</h3>
-      <p><b>Instructor, CS</b><br/>Oct 2025 - Present</p>
+      <p><b>Contractual Academic Instructor, CSE</b><br/>Oct 2025 - Present</p>
     </td>
-    <td width="25%" align="center">
-      <h3>Softvence IT Limited</h3>
-      <p><b>Trainee Backend Developer</b><br/>Oct 2025<br/>Betopia Group</p>
-    </td>
-    <td width="25%" align="center">
+    <td width="33%" align="center">
       <h3>Itransition</h3>
-      <p><b>Commercial Software Development</b><br/>PHP Training<br/>May 2025 - July 2025</p>
+      <p><b>PHP Commercial Software Development Trainee</b><br/>May 2025 - July 2025</p>
     </td>
-    <td width="25%" align="center">
-      <h3>EnKaizen</h3>
-      <p><b>Java Spring Boot</b><br/>Sept 1, 2023 - Nov 30, 2023</p>
+    <td width="33%" align="center">
+      <h3>Enkaizen</h3>
+      <p><b>Software Engineering Intern (Java Spring Boot)</b><br/>Sept 2023 - Nov 2023</p>
     </td>
   </tr>
 </table>
 </div>
 
-## What Makes Me Useful
+## What I Bring
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>For employers</h3>
+      <h3>To a CSE department</h3>
       <p>
-        I teach undergraduate students different courses (e.g., C++, Data Structure etc.) bring backend discipline, database thinking, frontend awareness, documentation habits, and the ability to learn a codebase without making unnecessary noise.
-      </p>
-      <p>
-        I am most excited by teams building real products where correctness, maintainability, and user trust matter.
+        Hands-on experience teaching C++ programming and data structures to first-year students, writing lab tasks, problem sheets and question banks, and building small tools that save the department time.
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>For professors and APs</h3>
+      <h3>To a team that needs tools</h3>
       <p>
-        I bring implementation ability, teaching experience, research curiosity, and the patience to refine an idea until it becomes experimentally useful.
-      </p>
-      <p>
-        I am especially drawn to labs working around blockchain, algorithms, bioinformatics, quantum computing, computational chemistry, secure systems, and image processing.
+        I turn a messy manual task into a working tool with AI coding agents: I pin down the requirement, guide the agent, check the output against real data, and hand over something people can use.
       </p>
     </td>
   </tr>

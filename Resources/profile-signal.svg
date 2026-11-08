@@ -1,4 +1,4 @@
-<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Build Research Explain">
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Teach. Build with AI. Ship.">
   <defs>
     <style>
       .title{font:800 44px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC;text-anchor:middle}
@@ -7,7 +7,7 @@
     </style>
   </defs>
   <rect width="1200" height="150" rx="24" fill="#020617"/>
-  <text x="600" y="58" class="title">Build. Research. Explain.</text>
-  <text x="600" y="88" class="sub">Backend systems, security research, algorithms, and scientific computing</text>
-  <text x="600" y="120" class="mono">profile.signal = systems + blockchain + algorithms + science</text>
+  <text x="600" y="58" class="title">Teach. Build with AI. Ship.</text>
+  <text x="600" y="88" class="sub">CSE fundamentals in the classroom, practical software tools built with AI coding agents</text>
+  <text x="600" y="120" class="mono">profile.signal = teaching + clear specs + AI agents + working tools</text>
 </svg>

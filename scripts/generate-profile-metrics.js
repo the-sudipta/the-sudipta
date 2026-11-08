@@ -285,16 +285,16 @@ function makeContributionChart(data) {
 
 function makeCapabilityMatrix(data) {
   const rows = [
-    ["Backend Engineering", 92, "PHP, Symfony, Spring Boot, APIs"],
-    ["Database Systems", 86, "MySQL, PostgreSQL, Microsoft SQL"],
-    ["Frontend Delivery", 74, "JavaScript, TypeScript, React, UI"],
-    ["Research Implementation", 82, "Security, algorithms, reproducible experiments"],
-    ["Teaching and Mentoring", 88, "CS instruction, OOP, documentation"],
-    ["Technical Writing", 80, "LaTeX, reports, reproducible notes"],
+    ["Teaching CSE Fundamentals", 88, "Intro to Programming, C++, Intro to CS, Data Structures"],
+    ["Building Tools with AI Agents", 86, "Claude Code: clear specs, review, testing, shipping"],
+    ["Course Material", 82, "Lab tasks, problem sheets, exam and viva question banks"],
+    ["Automation and Data Tasks", 74, "Python scripts, PDF to Excel extraction, reports"],
+    ["Web Apps (internships)", 62, "PHP/Symfony, Java Spring Boot, MySQL"],
+    ["Technical Writing", 76, "LaTeX, documentation, clear explanations"],
   ];
   let y = 145;
   const items = rows.map(([name, value, detail]) => {
-    const width = Math.round(value * 8.2);
+    const width = Math.round(value * 5.6);
     const out = `<g>
       <text x="90" y="${y + 22}" class="label">${esc(name)}</text>
       <text x="90" y="${y + 48}" class="small">${esc(detail)}</text>
@@ -305,13 +305,13 @@ function makeCapabilityMatrix(data) {
     y += 72;
     return out;
   }).join("");
-  return shell("Capability Matrix", "Readable skill balance across engineering, research, and instruction.", items, 620);
+  return shell("Capability Matrix", "Self-assessed balance between teaching and AI-assisted tool building.", items, 620);
 }
 
 function makeAcademicTimeline(data) {
   const cards = [
-    ["MSCS", "AIUB", "Ongoing", "Graduate CS study"],
-    ["MSCS / PMSCS", "Jahangirnagar University", "CGPA 3.944 / 4.00", "Advanced academic record"],
+    ["MSc CS", "AIUB", "Expected Jan 2027", "Graduate CS study"],
+    ["MSc CS (PMSCS)", "Jahangirnagar University", "CGPA 3.94 / 4.00", "Advanced academic record"],
     ["BSc CSE", "AIUB", "CGPA 3.92 / 4.00", "Strong CS foundation"],
     ["Recognition", "Dean's List x4", "AIUB Scholarship", "Academic consistency"],
   ];
@@ -335,65 +335,39 @@ function makeAcademicTimeline(data) {
     `${items}
     <path d="M195 128H1005" stroke="url(#aura)" stroke-width="5" stroke-linecap="round" opacity=".75"/>
     <rect x="238" y="490" width="724" height="44" rx="22" fill="#020617" stroke="#334155"/>
-    <text x="600" y="519" text-anchor="middle" class="small">Publication base: image encryption and multi-key secure transformation</text>`,
+    <text x="600" y="519" text-anchor="middle" class="small">Preprint: ML-MAWS, alignment-free phylogeny estimation (arXiv 2026)</text>`,
     590
   );
 }
 
 function makeResearchEngineeringMap(data) {
-  const pipeline = [
-    ["Cyber Security", "Submitted", "#8B5CF6"],
-    ["Deep Learning", "Researching", "#F59E0B"],
-    ["Signal Processing", "Submitted / pending", "#10B981"],
-  ].map(([field, status, color], index) => {
-    const x = 116 + index * 348;
-    return `<g filter="url(#shadow)">
-      <rect x="${x}" y="420" width="300" height="92" rx="22" fill="#0F172A" stroke="#334155"/>
-      <circle cx="${x + 34}" cy="466" r="12" fill="${color}"/>
-      <text x="${x + 60}" y="458" class="label">${esc(field)}</text>
-      <text x="${x + 60}" y="488" class="small">${esc(status)}</text>
-    </g>`;
-  }).join("");
-
   return shell(
-    "Research Publication Spotlight",
-    "One accepted paper, with active research threads shown as momentum instead of empty counts.",
+    "Research",
+    "One co-authored preprint, listed as a preprint.",
     `<g filter="url(#shadow)">
       <rect x="70" y="145" width="1060" height="220" rx="28" fill="#0F172A" stroke="#334155"/>
       <rect x="98" y="174" width="220" height="150" rx="24" fill="#020617" stroke="#22D3EE"/>
       <text x="208" y="222" text-anchor="middle" class="num">1</text>
-      <text x="208" y="258" text-anchor="middle" class="label">Published Paper</text>
-      <text x="208" y="288" text-anchor="middle" class="small">Image encryption</text>
-      <text x="208" y="314" text-anchor="middle" class="small">and decryption</text>
+      <text x="208" y="258" text-anchor="middle" class="label">Preprint</text>
+      <text x="208" y="288" text-anchor="middle" class="small">Bioinformatics</text>
+      <text x="208" y="314" text-anchor="middle" class="small">q-bio.PE</text>
 
-      <text x="350" y="194" class="micro">ACCEPTED RESEARCH</text>
-      <text x="350" y="236" class="label">Enhancing Image Encryption with</text>
-      <text x="350" y="268" class="label">Quadrant-Based Layered Multi-Key Systems</text>
-      <text x="350" y="306" class="small">International Journal of Mathematics and Computer Research</text>
-      <text x="350" y="334" class="small">Dec 2024 - DOI: 10.47191/ijmcr/v12i12.02</text>
-
-      <rect x="900" y="190" width="185" height="34" rx="17" fill="#1E293B" stroke="#334155"/>
-      <text x="992.5" y="213" text-anchor="middle" class="micro">SECURE IMAGING</text>
-      <rect x="900" y="240" width="185" height="34" rx="17" fill="#1E293B" stroke="#334155"/>
-      <text x="992.5" y="263" text-anchor="middle" class="micro">MULTI-KEY SYSTEMS</text>
-      <rect x="900" y="290" width="185" height="34" rx="17" fill="#1E293B" stroke="#334155"/>
-      <text x="992.5" y="313" text-anchor="middle" class="micro">APPLIED SECURITY</text>
-    </g>
-
-    <text x="70" y="398" class="micro">RESEARCH PIPELINE</text>
-    ${pipeline}
-    <rect x="150" y="548" width="900" height="42" rx="21" fill="#020617" stroke="#334155"/>
-    <text x="600" y="575" text-anchor="middle" class="small">The spotlight shows accepted work; pipeline items show active direction without inflating publication counts.</text>`,
-    640
+      <text x="350" y="194" class="micro">ARXIV PREPRINT - CO-AUTHOR</text>
+      <text x="350" y="236" class="label">ML-MAWS: Alignment-Free Maximum Likelihood</text>
+      <text x="350" y="268" class="label">Phylogeny Estimation Using Minimal Absent Words</text>
+      <text x="350" y="306" class="small">P. Saha, S. K. Das, A. Sarkar, M. M. Hasan</text>
+      <text x="350" y="334" class="small">arXiv:2606.25584, 2026</text>
+    </g>`,
+    410
   );
 }
 
 function makeCraftStackBoard(data) {
   const groups = [
-    ["Backend", ["PHP", "Symfony", "Java", "Spring Boot", ".NET", "NestJS"]],
-    ["Frontend", ["JavaScript", "TypeScript", "React", "AngularJS", "Twig", "Tailwind"]],
-    ["Data", ["MySQL", "PostgreSQL", "MS SQL", "Chart.js", "Analytics"]],
-    ["Research", ["Python", "AI/ML", "LaTeX", "MATLAB", "Documentation"]],
+    ["Teaching", ["C++", "Intro to Programming", "Intro to CS", "Data Structures", "Lab sheets", "Viva question banks"]],
+    ["AI-assisted building", ["Claude Code", "Writing clear specs", "Reviewing AI output", "Testing", "Git and GitHub"]],
+    ["Web (internships)", ["PHP", "Symfony", "Java", "Spring Boot", "MySQL", "JavaScript"]],
+    ["Data and docs", ["Python", "Excel automation", "LaTeX", "Chart.js", "Documentation"]],
   ];
   const cards = groups.map(([title, skills], index) => {
     const x = 70 + index * 282;
@@ -408,7 +382,7 @@ function makeCraftStackBoard(data) {
       ${chips}
     </g>`;
   }).join("");
-  return shell("Craft Stack", "Organized by how the tools are used in real work.", cards, 580);
+  return shell("Craft Stack", "What I use in class and when building tools.", cards, 580);
 }
 
 async function main() {
