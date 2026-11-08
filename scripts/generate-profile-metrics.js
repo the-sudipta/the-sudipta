@@ -289,8 +289,8 @@ function makeCapabilityMatrix(data) {
     ["Building Tools with AI Agents", 86, "Claude Code: clear specs, review, testing, shipping"],
     ["Course Material", 82, "Lab tasks, problem sheets, exam and viva question banks"],
     ["Automation and Data Tasks", 74, "Python scripts, PDF to Excel extraction, reports"],
+    ["Software Testing (QA)", 78, "Manual, API and unit testing, test cases, bug reports"],
     ["Web Apps (internships)", 62, "PHP/Symfony, Java Spring Boot, MySQL"],
-    ["Technical Writing", 76, "LaTeX, documentation, clear explanations"],
   ];
   let y = 145;
   const items = rows.map(([name, value, detail]) => {
@@ -305,7 +305,7 @@ function makeCapabilityMatrix(data) {
     y += 72;
     return out;
   }).join("");
-  return shell("Capability Matrix", "Self-assessed balance between teaching and AI-assisted tool building.", items, 620);
+  return shell("Capability Matrix", "Self-assessed balance between teaching, testing and AI-assisted tool building.", items, 620);
 }
 
 function makeAcademicTimeline(data) {
@@ -367,7 +367,7 @@ function makeCraftStackBoard(data) {
     ["Teaching", ["C++", "Intro to Programming", "Intro to CS", "Data Structures", "Lab sheets", "Viva question banks"]],
     ["AI-assisted building", ["Claude Code", "Writing clear specs", "Reviewing AI output", "Testing", "Git and GitHub"]],
     ["Web (internships)", ["PHP", "Symfony", "Java", "Spring Boot", "MySQL", "JavaScript"]],
-    ["Data and docs", ["Python", "Excel automation", "LaTeX", "Chart.js", "Documentation"]],
+    ["Testing and data", ["Manual testing", "API testing", "Unit testing", "Test cases", "Python", "Excel automation"]],
   ];
   const cards = groups.map(([title, skills], index) => {
     const x = 70 + index * 282;

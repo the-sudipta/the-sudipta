@@ -1,9 +1,9 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:020617,35:0f766e,70:2563eb,100:7c3aed&text=Sudipta%20Kumar%20Das&fontColor=ffffff&fontSize=56&animation=fadeIn&fontAlignY=37&desc=CSE%20Instructor%20%E2%80%A2%20Builds%20Software%20Tools%20with%20AI&descSize=18&descAlignY=58" alt="Sudipta Kumar Das"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:020617,35:0f766e,70:2563eb,100:7c3aed&text=Sudipta%20Kumar%20Das&fontColor=ffffff&fontSize=56&animation=fadeIn&fontAlignY=37&desc=CSE%20Instructor%20%E2%80%A2%20Software%20Tester%20%E2%80%A2%20Builds%20Tools%20with%20AI&descSize=18&descAlignY=58" alt="Sudipta Kumar Das"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&duration=2600&pause=700&color=67E8F9&center=true&vCenter=true&width=920&lines=Teaching+Programming%2C+Intro+to+CS+and+Data+Structures;Building+practical+tools+with+AI+coding+agents;Open+to+Lecturer+(CSE)+roles+anywhere+in+Bangladesh" alt="Typing introduction"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&duration=2600&pause=700&color=67E8F9&center=true&vCenter=true&width=920&lines=Teaching+Programming%2C+Intro+to+CS+and+Data+Structures;Building+practical+tools+with+AI+coding+agents;Manual%2C+API+and+unit+testing%2C+test+cases%2C+bug+reports;Open+to+Lecturer+(CSE)+roles+anywhere+in+Bangladesh" alt="Typing introduction"/>
 </a>
 
 <p>
@@ -18,7 +18,7 @@
   <img src="https://komarev.com/ghpvc/?username=the-sudipta&label=Visitors&color=22d3ee&style=flat-square" alt="Visitors"/>
   <img src="https://img.shields.io/badge/Based%20in-Dhaka%2C%20Bangladesh-0f766e?style=flat-square" alt="Dhaka Bangladesh"/>
   <img src="https://img.shields.io/badge/Current-CSE%20Instructor%20%40%20AIUB-f59e0b?style=flat-square" alt="CSE Instructor at AIUB"/>
-  <img src="https://img.shields.io/badge/Open%20to-Lecturer%20%7C%20Instructor%20%7C%20AI%20tool%20building-8b5cf6?style=flat-square" alt="Open to Lecturer, Instructor and AI tool-building roles"/>
+  <img src="https://img.shields.io/badge/Open%20to-Lecturer%20%7C%20Junior%20QA%20%7C%20AI%20tool%20building-8b5cf6?style=flat-square" alt="Open to Lecturer, Instructor and AI tool-building roles"/>
 </p>
 
 </div>
@@ -37,13 +37,17 @@ I also build practical software tools with AI coding agents such as Claude Code.
 
 <table>
   <tr>
-    <td width="50%" align="center">
+    <td width="33%" align="center">
       <h3>Teacher</h3>
       <p>Introduction to Programming (C++), Introduction to Computer Science, Data Structures. Lab tasks, problem sheets, and exam and viva question banks.</p>
     </td>
-    <td width="50%" align="center">
+    <td width="33%" align="center">
       <h3>Tool builder</h3>
       <p>Small, useful tools built with AI coding agents: clear specs, careful review, tests, and plain documentation.</p>
+    </td>
+    <td width="33%" align="center">
+      <h3>Tester</h3>
+      <p>Manual, API and unit testing, test case writing, and clear bug reports from the user's side, following the SDLC.</p>
     </td>
   </tr>
 </table>
@@ -61,7 +65,7 @@ I also build practical software tools with AI coding agents such as Claude Code.
     <td width="50%" valign="top">
       <h3>Looking For</h3>
       <p>
-        Lecturer (CSE) positions anywhere in Bangladesh, and roles where I build internal tools with AI coding agents.
+        Lecturer (CSE) positions anywhere in Bangladesh, junior software QA roles, and roles where I build internal tools with AI coding agents.
       </p>
     </td>
   </tr>
