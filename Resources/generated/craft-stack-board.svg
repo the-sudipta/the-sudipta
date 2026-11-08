@@ -25,44 +25,44 @@
   <rect width="1200" height="580" rx="30" fill="url(#bg)"/>
   <rect x="1" y="1" width="1198" height="578" rx="30" stroke="url(#aura)" stroke-opacity=".48"/>
   <text x="70" y="72" class="title">Craft Stack</text>
-  <text x="70" y="104" class="sub">Organized by how the tools are used in real work.</text>
+  <text x="70" y="104" class="sub">What I use in class and when building tools.</text>
   <g filter="url(#shadow)">
       <rect x="70" y="145" width="250" height="360" rx="24" fill="#0F172A" stroke="#334155"/>
-      <text x="195" y="185" text-anchor="middle" class="label">Backend</text>
+      <text x="195" y="185" text-anchor="middle" class="label">Teaching</text>
       <rect x="98" y="205" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="203" y="227" text-anchor="middle" class="small">PHP</text><rect x="98" y="253" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="203" y="275" text-anchor="middle" class="small">Symfony</text><rect x="98" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="203" y="323" text-anchor="middle" class="small">Java</text><rect x="98" y="349" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="203" y="371" text-anchor="middle" class="small">Spring Boot</text><rect x="98" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="203" y="419" text-anchor="middle" class="small">.NET</text><rect x="98" y="445" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="203" y="467" text-anchor="middle" class="small">NestJS</text>
+      <text x="203" y="227" text-anchor="middle" class="small">C++</text><rect x="98" y="253" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="203" y="275" text-anchor="middle" class="small">Intro to Programming</text><rect x="98" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="203" y="323" text-anchor="middle" class="small">Intro to CS</text><rect x="98" y="349" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="203" y="371" text-anchor="middle" class="small">Data Structures</text><rect x="98" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="203" y="419" text-anchor="middle" class="small">Lab sheets</text><rect x="98" y="445" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="203" y="467" text-anchor="middle" class="small">Viva question banks</text>
     </g><g filter="url(#shadow)">
       <rect x="352" y="145" width="250" height="360" rx="24" fill="#0F172A" stroke="#334155"/>
-      <text x="477" y="185" text-anchor="middle" class="label">Frontend</text>
+      <text x="477" y="185" text-anchor="middle" class="label">AI-assisted building</text>
       <rect x="380" y="205" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="485" y="227" text-anchor="middle" class="small">JavaScript</text><rect x="380" y="253" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="485" y="275" text-anchor="middle" class="small">TypeScript</text><rect x="380" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="485" y="323" text-anchor="middle" class="small">React</text><rect x="380" y="349" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="485" y="371" text-anchor="middle" class="small">AngularJS</text><rect x="380" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="485" y="419" text-anchor="middle" class="small">Twig</text><rect x="380" y="445" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="485" y="467" text-anchor="middle" class="small">Tailwind</text>
+      <text x="485" y="227" text-anchor="middle" class="small">Claude Code</text><rect x="380" y="253" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="485" y="275" text-anchor="middle" class="small">Writing clear specs</text><rect x="380" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="485" y="323" text-anchor="middle" class="small">Reviewing AI output</text><rect x="380" y="349" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="485" y="371" text-anchor="middle" class="small">Testing</text><rect x="380" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="485" y="419" text-anchor="middle" class="small">Git and GitHub</text>
     </g><g filter="url(#shadow)">
       <rect x="634" y="145" width="250" height="360" rx="24" fill="#0F172A" stroke="#334155"/>
-      <text x="759" y="185" text-anchor="middle" class="label">Data</text>
+      <text x="759" y="185" text-anchor="middle" class="label">Web (internships)</text>
       <rect x="662" y="205" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="767" y="227" text-anchor="middle" class="small">MySQL</text><rect x="662" y="253" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="767" y="275" text-anchor="middle" class="small">PostgreSQL</text><rect x="662" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="767" y="323" text-anchor="middle" class="small">MS SQL</text><rect x="662" y="349" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="767" y="371" text-anchor="middle" class="small">Chart.js</text><rect x="662" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="767" y="419" text-anchor="middle" class="small">Analytics</text>
+      <text x="767" y="227" text-anchor="middle" class="small">PHP</text><rect x="662" y="253" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="767" y="275" text-anchor="middle" class="small">Symfony</text><rect x="662" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="767" y="323" text-anchor="middle" class="small">Java</text><rect x="662" y="349" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="767" y="371" text-anchor="middle" class="small">Spring Boot</text><rect x="662" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="767" y="419" text-anchor="middle" class="small">MySQL</text><rect x="662" y="445" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="767" y="467" text-anchor="middle" class="small">JavaScript</text>
     </g><g filter="url(#shadow)">
       <rect x="916" y="145" width="250" height="360" rx="24" fill="#0F172A" stroke="#334155"/>
-      <text x="1041" y="185" text-anchor="middle" class="label">Research</text>
+      <text x="1041" y="185" text-anchor="middle" class="label">Data and docs</text>
       <rect x="944" y="205" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
       <text x="1049" y="227" text-anchor="middle" class="small">Python</text><rect x="944" y="253" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="1049" y="275" text-anchor="middle" class="small">AI/ML</text><rect x="944" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="1049" y="275" text-anchor="middle" class="small">Excel automation</text><rect x="944" y="301" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
       <text x="1049" y="323" text-anchor="middle" class="small">LaTeX</text><rect x="944" y="349" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
-      <text x="1049" y="371" text-anchor="middle" class="small">MATLAB</text><rect x="944" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
+      <text x="1049" y="371" text-anchor="middle" class="small">Chart.js</text><rect x="944" y="397" width="210" height="32" rx="16" fill="#1E293B" stroke="#334155"/>
       <text x="1049" y="419" text-anchor="middle" class="small">Documentation</text>
     </g>
   <text x="70" y="548" class="micro">AUTO-GENERATED BY WORKFLOW - UPDATED 2026-11-08</text>
