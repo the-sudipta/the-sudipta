@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:020617,35:0f766e,70:2563eb,100:7c3aed&text=Sudipta%20Kumar%20Das&fontColor=ffffff&fontSize=56&animation=fadeIn&fontAlignY=37&desc=CSE%20Instructor%20%E2%80%A2%20Software%20Tester%20%E2%80%A2%20Builds%20Tools%20with%20AI&descSize=18&descAlignY=58" alt="Sudipta Kumar Das"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:020617,35:0f766e,70:2563eb,100:7c3aed&text=Sudipta%20Kumar%20Das&fontColor=ffffff&fontSize=56&animation=fadeIn&fontAlignY=37&desc=Adjunct%20Lecturer%20(CSE)%20%E2%80%A2%20Software%20Tester%20%E2%80%A2%20Builds%20Tools%20with%20AI&descSize=18&descAlignY=58" alt="Sudipta Kumar Das"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&duration=2600&pause=700&color=67E8F9&center=true&vCenter=true&width=920&lines=Teaching+Programming%2C+Intro+to+CS+and+Data+Structures;Building+practical+tools+with+AI+coding+agents;Manual%2C+API+and+unit+testing%2C+test+cases%2C+bug+reports;Open+to+Lecturer+(CSE)+roles+anywhere+in+Bangladesh" alt="Typing introduction"/>
@@ -17,8 +17,8 @@
 <p>
   <img src="https://komarev.com/ghpvc/?username=the-sudipta&label=Visitors&color=22d3ee&style=flat-square" alt="Visitors"/>
   <img src="https://img.shields.io/badge/Based%20in-Dhaka%2C%20Bangladesh-0f766e?style=flat-square" alt="Dhaka Bangladesh"/>
-  <img src="https://img.shields.io/badge/Current-CSE%20Instructor%20%40%20AIUB-f59e0b?style=flat-square" alt="CSE Instructor at AIUB"/>
-  <img src="https://img.shields.io/badge/Open%20to-Lecturer%20%7C%20Junior%20QA%20%7C%20AI%20tool%20building-8b5cf6?style=flat-square" alt="Open to Lecturer, Instructor and AI tool-building roles"/>
+  <img src="https://img.shields.io/badge/Current-Adjunct%20Lecturer%20(CSE)%20%40%20AIUB-f59e0b?style=flat-square" alt="Adjunct Lecturer (CSE) at AIUB"/>
+  <img src="https://img.shields.io/badge/Open%20to-Lecturer%20%7C%20Junior%20QA%20%7C%20AI%20tool%20building-8b5cf6?style=flat-square" alt="Open to Lecturer, junior QA and AI tool-building roles"/>
 </p>
 
 </div>
@@ -31,7 +31,7 @@
 
 ## Hello, I am Sudipta
 
-I teach Computer Science and Engineering at American International University-Bangladesh (AIUB), mainly first-year courses: C++ programming and data structures. I like making the first year of CSE feel clear and doable.
+I am an Adjunct Lecturer in Computer Science and Engineering at American International University-Bangladesh (AIUB), teaching mainly first-year courses: C++ programming and data structures. I like making the first year of CSE feel clear and doable.
 
 I also build practical software tools with AI coding agents such as Claude Code. I decide what the tool must do, write clear instructions, review and test what the agent produces, and ship it. Recent examples: extracting assessment marks from 367 evaluation PDFs into Excel for my department, and a personal job-search automation tool (private repo).
 
@@ -59,7 +59,7 @@ I also build practical software tools with AI coding agents such as Claude Code.
     <td width="50%" valign="top">
       <h3>Now</h3>
       <p>
-        Contractual Academic Instructor, Dept. of CSE, <b>American International University-Bangladesh</b> (Oct 2025 - present), while finishing an MSc in Computer Science (expected Jan 2027).
+        Adjunct Lecturer, Dept. of CSE, <b>American International University-Bangladesh</b> (Oct 2025 - present), while finishing an MSc in Computer Science (expected Jan 2027).
       </p>
     </td>
     <td width="50%" valign="top">
@@ -160,7 +160,7 @@ I also build practical software tools with AI coding agents such as Claude Code.
   <tr>
     <td width="33%" align="center">
       <h3>AIUB</h3>
-      <p><b>Contractual Academic Instructor, CSE</b><br/>Oct 2025 - Present</p>
+      <p><b>Adjunct Lecturer, CSE</b><br/>Oct 2025 - Present</p>
     </td>
     <td width="33%" align="center">
       <h3>Itransition</h3>
