@@ -18,7 +18,7 @@
   <img src="https://komarev.com/ghpvc/?username=the-sudipta&label=Visitors&color=22d3ee&style=flat-square" alt="Visitors"/>
   <img src="https://img.shields.io/badge/Based%20in-Dhaka%2C%20Bangladesh-0f766e?style=flat-square" alt="Dhaka Bangladesh"/>
   <img src="https://img.shields.io/badge/Current-Adjunct%20Lecturer%20(CSE)%20%40%20AIUB-f59e0b?style=flat-square" alt="Adjunct Lecturer (CSE) at AIUB"/>
-  <img src="https://img.shields.io/badge/Open%20to-Lecturer%20%7C%20Junior%20QA%20%7C%20AI%20tool%20building-8b5cf6?style=flat-square" alt="Open to Lecturer, junior QA and AI tool-building roles"/>
+  <img src="https://img.shields.io/badge/Open%20to-Lecturer%20%7C%20Junior%20QA%20%7C%20Banking%20IT-8b5cf6?style=flat-square" alt="Open to Lecturer, junior QA and banking IT roles"/>
 </p>
 
 </div>
@@ -65,7 +65,7 @@ I also build practical software tools with AI coding agents such as Claude Code.
     <td width="50%" valign="top">
       <h3>Looking For</h3>
       <p>
-        Lecturer (CSE) positions anywhere in Bangladesh, junior software QA roles, and roles where I build internal tools with AI coding agents.
+        Lecturer (CSE) positions anywhere in Bangladesh, junior software QA roles, entry-level banking IT roles (IT Officer, Assistant Programmer), and roles where I build internal tools with AI coding agents.
       </p>
     </td>
   </tr>
