@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "date": "2026-11-16",
-  "week": "2026-W47",
-  "resetCounter": 24,
-  "activeIssueNumber": 25,
-  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/25",
+  "date": "2026-11-23",
+  "week": "2026-W48",
+  "resetCounter": 25,
+  "activeIssueNumber": 26,
+  "activeIssueUrl": "https://github.com/the-sudipta/the-sudipta/issues/26",
   "layout": {
     "size": 4,
     "mission": "Repair the System Blueprint",
-    "wumpus": "A3",
+    "wumpus": "D1",
     "pits": [
-      "D3",
-      "C3"
+      "A4",
+      "C4"
     ],
     "bats": [
-      "A1"
+      "D3"
     ],
     "artifacts": {
-      "D1": "Algorithm Relic",
-      "B1": "Security Key",
-      "D2": "Blockchain Ledger",
-      "A2": "Bioinformatics Sample",
-      "B4": "Quantum Fragment"
+      "B3": "Algorithm Relic",
+      "A2": "Security Key",
+      "A1": "Blockchain Ledger",
+      "C3": "Bioinformatics Sample",
+      "A3": "Quantum Fragment"
     }
   },
   "player": {
@@ -37,6 +37,18 @@
   ],
   "collected": [],
   "history": [
+    {
+      "actor": "the-sudipta",
+      "command": "/render",
+      "message": "Rendered the current cave state.",
+      "at": "2026-11-22T23:31:14.072Z"
+    },
+    {
+      "actor": "github",
+      "command": "/weekly-reset",
+      "message": "A new weekly cave has opened for 2026-W48.",
+      "at": "2026-11-22T23:31:14.072Z"
+    },
     {
       "actor": "the-sudipta",
       "command": "/render",
@@ -72,18 +84,6 @@
       "command": "/weekly-reset",
       "message": "A new weekly cave has opened for 2026-W45.",
       "at": "2026-11-01T21:56:32.257Z"
-    },
-    {
-      "actor": "the-sudipta",
-      "command": "/render",
-      "message": "Rendered the current cave state.",
-      "at": "2026-10-25T20:43:43.062Z"
-    },
-    {
-      "actor": "github",
-      "command": "/weekly-reset",
-      "message": "A new weekly cave has opened for 2026-W44.",
-      "at": "2026-10-25T20:43:43.062Z"
     }
   ],
   "latest": {
